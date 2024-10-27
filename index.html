@@ -6,397 +6,473 @@
   <meta charset="UTF-8">
   <meta name="author" content="Zhuolun Leon HE">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-  <header>
-    <h1>Zhuolun (Leon) HE</h1>
-    <p style="color:gray"><small>[zleonhe at gmail dot com] [<a target="_blank" href="./pdf/zhuolun_he_cv.pdf">CV</a>]
-        [<a target="_blank" href="https://scholar.google.com/citations?user=_UUpQe8AAAAJ&hl=en">Google
-          Scholar</a>]</small></p>
+  <header style="margin-top: 20px">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <img src="images/about.jpg" width=100%>
+
+        </div>
+        <div class="col-lg-4">
+          <h2>Zhuolun (Leon) HE</h2>
+          <hr style="margin-top: 10px; width: 80%">
+          <p style="line-height: 1.35">
+            Postdoctoral Fellow<br>
+            <a target="_blank" href="https://www.cse.cuhk.edu.hk/">Department of Computer Science and
+              Engineering</a><br>
+            <a target="_blank" , href="https://www.pku.edu.cn/">The Chinese University of Hong Kong</a><br>
+            <br>
+            Co-Founder & CEO<br>
+            ChatEDA Tech<br>
+          </p>
+          <p>
+            <small>
+              B.Sc. (<a target="_blank" , href="https://www.pku.edu.cn/">Peking U</a>) Ph.D. (<a target="_blank" ,
+                href="https://www.pku.edu.cn/">CUHK</a>)
+              <br>
+              <span style="color:gray">[zleonhe at gmail dot com] [<a target="_blank"
+                  href="./pdf/zhuolun_he_cv.pdf">CV</a>]
+                [<a target="_blank" href="https://scholar.google.com/citations?user=_UUpQe8AAAAJ&hl=en">Google
+                  Scholar</a>]</small></span>
+          </p>
+        </div>
+      </div>
   </header>
-  <p>I am a postdoctoral fellow at the Department of Computer Science and Engineering, Chinese University of Hong Kong,
-    supervised by Prof. <a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/">Bei Yu</a>.
-    <br>B.Sc. (Peking U) Ph.D. (CUHK)
-  </p>
-  <p>
-    Research summary:
-  <ul>
-    <li>LLM empowered EDA (MLCAD'23, ISPD'24, TCAD'24, ICCAD'24)</li>
-    <li>Efficient physical verification (ICCAD'22, DATE'23, DAC'23, ICCAD'23, DAC'24)</li>
-    <li>Netlist representation learning (ISPD'20, ICCAD'21, DAC'22, TCAD'23, TCAD'24)</li>
-    <li>Physical design for neural processor (ASPDAC'21, 3rd place in ISPD contest 2020)</li>
-    <li>Reinforcement learning driven physical synthesis (ICCD'20, ICSICT'20)</li>
-    <li>Heterogeneous accelerator design (FPGA'17, FCCM'18, TCAD'23)</li>
-  </ul>
-  </p>
+  <div class="container">
+    <div class="d-flex align-items-start">
+      <ul class="nav flex-column nav-pills me-3" id="myTab" role="tablist" aria-orientation="vertical">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="pill" data-bs-target="#home-tab-pane"
+            type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">About</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="publication-tab" data-bs-toggle="pill" data-bs-target="#publication-tab-pane"
+            type="button" role="tab" aria-controls="publication-tab-pane" aria-selected="false">Publication</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="calendar-tab" data-bs-toggle="pill" data-bs-target="#calendar-tab-pane"
+            type="button" role="tab" aria-controls="calendar-tab-pane" aria-selected="false">Calendar</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+          tabindex="0">
+          <p>I am a postdoctoral researcher at the Department of Computer Science and Engineering, Chinese University of
+            Hong Kong, and the co-founder & CEO of ChatEDA Tech.
+            I received my Ph.D. degree from CUHK in 2023, supervised by Prof. <a target="_blank"
+              href="https://www.cse.cuhk.edu.hk/~byu/">Bei Yu</a>, and my B.Sc. degree from Peking University in 2017.
+            I received the Best Paper Award Nomination from International Conference on Computer-Aided Design (ICCAD)
+            2024, the <a target="_blank" href="./images/2024-ISPD-BPA-nomination.pdf">Best Paper Award Nomination from
+              International Symposium on Physical Design (ISPD) 2024</a>, <a target="_blank"
+              href="./images/2018-EDAthon-champion.pdf">championship of EDAthon 2018</a>, and the <a target="_blank"
+              href="./images/2020-ISPD-contest-3rd.png">3rd place in ISPD contest 2020</a>.
+          </p>
+          <p>
+            Research summary:
+          <ul>
+            <li>LLM empowered EDA (MLCAD'23, ISPD'24, TCAD'24, ICCAD'24)</li>
+            <li>Efficient physical verification (ICCAD'22, DATE'23, DAC'23, ICCAD'23, DAC'24)</li>
+            <li>Netlist representation learning (ISPD'20, ICCAD'21, DAC'22, TCAD'23, TCAD'24)</li>
+            <li>Physical design for neural processor (ASPDAC'21, 3rd place in ISPD contest 2020)</li>
+            <li>Reinforcement learning driven physical synthesis (ICCD'20, ICSICT'20)</li>
+            <li>Heterogeneous accelerator design (FPGA'17, FCCM'18, TCAD'23)</li>
+          </ul>
+          </p>
+        </div>
+        <div class="tab-pane fade" id="publication-tab-pane" role="tabpanel" aria-labelledby="publication-tab"
+          tabindex="0">
+          <ol reversed>
+            <h4>2024</h4>
+            <li>
+              <p>
+                Haoyuan Wu, Haisheng Zheng, <strong>Zhuolun He</strong>, and Bei Yu.
+                <!-- “<a target="_blank" href="https://ieeexplore.ieee.org/document/10049639"> -->
+                "Parameter-Efficient Sparsity Crafting from Dense to Mixture-of-Experts for Instruction Tuning on
+                General
+                Tasks,"
+                <cite>Empirical Methods in Natural Language Processing (EMNLP)</cite>,
+                Miami, FL, USA, Dec. 12-16, 2024.
+                [<a target="_blank" href="https://arxiv.org/abs/2401.02731">arXiv</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Ziyi Wang, Chen Bai, <strong>Zhuolun He</strong>, Guangliang Zhang, Qiang Xu, Tsung-Yi Ho, Yu Huang, and
+                Bei Yu.
+                "<a target="_blank" href="https://ieeexplore.ieee.org/document/10609964">
+                  FGNN2: A Powerful Pre-training Framework for Learning the Logic Functionality of Circuits</a>,"
+                <cite>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</cite>,
+                2024.
+              </p>
+            </li>
+            <li>
+              <p>
+                Yuan Pu, <strong>Zhuolun He</strong>, Tairu Qiu, Haoyuan Wu, and Bei Yu.
+                <!-- “<a target="_blank" href="https://ieeexplore.ieee.org/document/10049639"> -->
+                "Customized Retrieval Augmented Generation and Benchmarking for EDA Tool Documentation QA,"
+                <cite>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</cite>,
+                Newark, NJ, USA, Oct. 27-31, 2024. (Best Paper Award Nomination)
+              </p>
+            </li>
+            <li>
+              <p>
+                Haoyuan Wu, <strong>Zhuolun He</strong>, Xinyun Zhang, Xufeng Yao, Su Zheng, Haisheng Zheng, and Bei Yu.
+                "<a target="_blank" href="https://ieeexplore.ieee.org/document/10485372/">
+                  ChatEDA: A Large Language Model Powered Autonomous Agent for EDA</a>,"
+                <cite>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</cite>,
+                2024.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/J115-TCAD2024-ChatEDA.pdf">Paper</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Yuan Pu, Fangzhou Liu, Yu Zhang, <strong>Zhuolun He</strong>, Kai-Yuan Chao, Yibo Lin, and Bei Yu.
+                "Lesyn: Placement-aware Logic Resynthesis for Non-Integer Multiple-Cell-Height Designs,"
+                <cite>ACM/IEEE Design Automation Conference (DAC)</cite>,
+                San Francisco, CA, USA, Jun. 23–27, 2024.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C220-DAC2024-Lesyn.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C220-DAC2024-Lesyn-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Jiaxi Jiang, Lancheng Zou, Wenqian Zhao, <strong>Zhuolun He</strong>, Tinghuan Chen, Bei Yu.
+                “PDRC: Package Design Rule Checking via GPU-Accelerated Geometric Intersection Algorithms for
+                Non-Manhattan
+                Geometry,”
+                <cite>ACM/IEEE Design Automation Conference (DAC)</cite>,
+                San Francisco, CA, USA, Jun. 23–27, 2024.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C219-DAC2024-PDRC.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C219-DAC2024-PDRC-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Fangzhou Liu, Zehua Pei, Ziyang Yu, Haisheng Zheng, <strong>Zhuolun He</strong>, Tinghuan Chen, and Bei
+                Yu.
+                “<a target="_blank" href="https://ieeexplore.ieee.org/document/10546766">
+                  CBTune: Contextual Bandit Tuning for Logic Synthesis</a>,”
+                <cite>IEEE/ACM Design, Automation and Test in Europe Conference (DATE)</cite>,
+                Valencia, Spain, Mar. 25–27, 2024.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C208-DATE2024-CBTune.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C208-DATE2024-CBTune-slides.pdf">Slides</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C208-DATE2024-CBTune-poster.pdf">Poster</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Zhuolun He</strong>, and Bei Yu.
+                “<a target="_blank" href="https://doi.org/10.1145/3626184.3639700">
+                  Large Language Models for EDA: Future or Mirage?</a>,”
+                <cite>ACM International Symposium on Physical Design (ISPD)</cite>,
+                Taipei, Mar. 12–15, 2024.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C206-ISPD2024-LLM-EDA.pdf">Paper</a>]
+                <!-- [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C149-ICCAD2022-GPU-DRC-slides.pdf">Slides</a>] -->
+              </p>
+            </li>
+            <li>
+              <p>
+                Yuan Pu, Tinghuan Chen, <strong>Zhuolun He</strong>, Chen Bai, Haisheng Zheng, Yibo Lin, and Bei Yu.
+                "<a target="_blank" href="https://doi.org/10.1145/3626184.3633321">
+                  IncreMacro: Incremental Macro Placement Refinement</a>,"
+                <cite>ACM International Symposium on Physical Design (ISPD)</cite>,
+                Taipei, Mar. 12–15, 2024. (Best Paper Award Nomination)
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C205-ISPD2024-IncreMacro.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C205-ISPD2024-IncreMacro-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Siting Liu, Jiaxi Jiang, <strong>Zhuolun He</strong>, Ziyi Wang, Yibo Lin, and Bei Yu.
+                “<a target="_blank" , href="https://doi.org/10.1145/3626184.3633322">
+                  Routing-aware Legal Hybrid Bonding Terminal Assignment for 3D Face-to-Face Stacked ICs</a>,”
+                <cite>ACM International Symposium on Physical Design (ISPD)</cite>,
+                Taipei, Mar. 12–15, 2024.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C202-ISPD2024-BTAssign.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C202-ISPD2024-BTAssign-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Haisheng Zheng, <strong>Zhuolun He</strong>, Fangzhou Liu, Zehua Pei, and Bei Yu.
+                “<a target="_blank" href="https://doi.org/10.1109/ASP-DAC58780.2024.10473925">
+                  A Logic Synthesis Timing Predictor</a>,”
+                <cite>IEEE/ACM Asian and South Pacific Design Automation Conference (ASPDAC)</cite>,
+                Incheon, South Korea, Jan. 22–25, 2024.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C192-ASPDAC2024-LSTP.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C192-ASPDAC2024-LSTP-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <h4>2023</h4>
+            <li>
+              <p>
+                <strong>Zhuolun He</strong>, and Bei Yu.
+                “<a target="_blank" href="https://doi.org/10.1109/ICCAD57390.2023.10323957">
+                  Heterogenous Acceleration for Design Rule Checking</a>,”
+                <cite>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</cite>,
+                San Francisco, CA, USA, Oct. 29-Nov. 2, 2023. (Invited Paper)
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C188-ICCAD2023-HeteroDRC.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C188-ICCAD2023-HeteroDRC-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Zehua Pei, Fangzhou Liu, <strong>Zhuolun He</strong>, Guojin Chen, Haisheng Zheng, Keren Zhu, and Bei
+                Yu.
+                “<a target="_blank" , href="https://doi.org/10.1109/ICCAD57390.2023.10323856">
+                  AlphaSyn: Logic Synthesis Optimization with Efficient Monte Carlo Tree Search</a>,”
+                <cite>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</cite>,
+                San Francisco, CA, USA, Oct. 29-Nov. 2, 2023.
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn-slides.pdf">Slides</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn-poster.pdf">Poster</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Zhuolun He</strong>, Haoyuan Wu, Xinyun Zhang, Xufeng Yao, Su Zheng, Haisheng Zheng, and Bei Yu.
+                “<a target="_blank" href="https://doi.org/10.1109/MLCAD58807.2023.10299852">
+                  ChatEDA: A Large Language Model Powered Autonomous Agent for EDA</a>,”
+                <cite>ACM/IEEE Workshop on Machine Learning for CAD (MLCAD)</cite>,
+                Snowbird, UT, USA, Oct. 29–Nov. 2, 2023.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C177-MLCAD2023-ChatEDA.pdf">Paper</a>]
+                [<a target="_blank" href="https://arxiv.org/abs/2308.10204">arXiv</a>]
+                <!-- [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C149-ICCAD2022-GPU-DRC-slides.pdf">Slides</a>] -->
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Zhuolun He</strong>, Yihang Zuo, Jiaxi Jiang, Haisheng Zheng, Yuzhe Ma, and Bei Yu.
+                “<a target="_blank" , href="https://doi.org/10.1109/DAC56929.2023.10247734">
+                  OpenDRC: An Efficient Open-Source Design Rule Checking Engine with Hierarchical GPU Acceleration</a>,”
+                <cite>ACM/IEEE Design Automation Conference (DAC)</cite>,
+                San Francisco, CA, USA, July 9-13, 2023.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C172-DAC2023-OpenDRC.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C172-DAC2023-OpenDRC-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Zehua Pei, Wenqian Zhao, <strong>Zhuolun He</strong>, and Bei Yu.
+                “<a target="_blank" href="https://ieeexplore.ieee.org/document/10218502/">
+                  Quantization for Efficient Layout Hotspot Detection</a>,”
+                <cite>International Symposium of Electronics Design Automation (ISEDA)</cite>,
+                Nanjing, China, May 9–11, 2023.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C161-ISEDA2023-QuanHSD.pdf">Paper</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Bizhao Shi, Jiaxi Zhang, <strong>Zhuolun He</strong>, Xuechao Wei, Sicheng Li, Guojie Luo, Hongzhong
+                Zheng, and Yuan Xie.
+                “<a target="_blank" href="https://ieeexplore.ieee.org/document/10049639">
+                  Efficient Super-Resolution System with Block-wise Hybridization and Quantized Winograd on FPGA</a>,”
+                <cite>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</cite>,
+                2023.
+              </p>
+            </li>
+            <li>
+              <p>
+                Ziyi Wang, <strong>Zhuolun He</strong>, Chen Bai, Haoyu Yang, and Bei Yu.
+                “<a target="_blank" href="https://ieeexplore.ieee.org/document/9975800">
+                  Efficient Arithmetic Block Identification with Graph Learning and Network-flow</a>,”
+                <cite>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</cite>,
+                2023.
+              </p>
+            </li>
+            <li>
+              <p>
+                Wei Zhong, Zhenhua Feng, <strong>Zhuolun He</strong>, Weimin Wang, Yuzhe Ma, and Bei Yu.
+                “<a target="_blank" href="https://doi.org/10.23919/DATE56975.2023.10137135">
+                  Enabling Efficient Design Rule Checking with GPU Acceleration</a>,”
+                <cite>IEEE/ACM Proceedings Design, Automation and Test in Europe (DATE)</cite>,
+                Antwerp, Belgium, Apr. 17-19, 2023. (extended abstract)
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C158-DATE2023-DRC-GPU.pdf">Paper</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Yuxuan Zhao, Qi Sun, <strong>Zhuolun He</strong>, Yang Bai, and Bei Yu.
+                “<a target="_blank" href="https://doi.org/10.1609/aaai.v37i9.26343">
+                  Optimizing DNN Computation Graph for Parallel GPU Kernel Execution</a>,”
+                <cite>AAAI Conference on Artificial Intelligence (AAAI)</cite>,
+                Washington, DC, USA, Feb. 7-14, 2023.
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C155-AAAI2023-AutoGraph.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C155-AAAI2023-AutoGraph-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <h4>2022</h4>
+            <li>
+              <p>
+                <strong>Zhuolun He</strong>, Yuzhe Ma, and Bei Yu.
+                “<a target="_blank" href="https://dl.acm.org/doi/10.1145/3508352.3549383">
+                  X-Check: GPU-Accelerated Design Rule Checking via Parallel Sweepline Algorithms</a>,”
+                <cite>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</cite>,
+                San Diego, CA, USA, Oct. 30-Nov. 3, 2022.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C149-ICCAD2022-GPU-DRC.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C149-ICCAD2022-GPU-DRC-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Ziyi Wang, Chen Bai, <strong>Zhuolun He</strong>, Guangliang Zhang, Qiang Xu, Tsung-Yi Ho, Bei Yu, and
+                Yu
+                Huang.
+                “<a target="_blank" href="https://dl.acm.org/doi/10.1145/3489517.3530410">
+                  Functionality Matters in Netlist Representation Learning</a>,”
+                <cite>ACM/IEEE Design Automation Conference (DAC)</cite>,
+                San Francisco, CA, USA, July 10-14, 2022.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C142-DAC2022-GCL.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C142-DAC2022-GCL-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <h4>2021</h4>
+            <li>
+              <p>
+                <strong>Zhuolun He</strong>, Ziyi Wang, Chen Bai, Haoyu Yang, and Bei Yu.
+                “<a target="_blank" href="https://ieeexplore.ieee.org/document/9643581">
+                  Graph Learning-Based Arithmetic Block Identification</a>,”
+                <cite>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</cite>,
+                Munich, Germany, Nov. 1-4, 2021.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C123-ICCAD2021-ReveGCN.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C123-ICCAD2021-ReveGCN-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Zhuolun He</strong>, Peiyu Liao, Siting Liu, Yuzhe Ma, and Bei Yu.
+                “<a target="_blank" href="https://dl.acm.org/doi/10.1145/3394885.3431625">
+                  Physical Synthesis for Advanced Neural Network Processors</a>,”
+                <cite>IEEE/ACM Asian and South Pacific Design Automation Conference (ASPDAC)</cite>,
+                Tokyo, Japan, Jan. 18-21, 2021. (Invited Paper)
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C110-ASPDAC2021-CUPID.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https//www.cse.cuhk.edu.hk/~byu/papers/C110-ASPDAC2021-CUPID-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <h4>2020</h4>
+            <li>
+              <p>
+                <strong>Zhuolun He</strong>, Lu Zhang, Peiyu Liao, Yuzhe Ma, and Bei Yu.
+                “<a target="_blank" href="https://ieeexplore.ieee.org/document/9278350/">
+                  Reinforcement Learning Driven Physical Synthesis</a>,”
+                <cite>IEEE International Conference on Solid -State and Integrated Circuit Technology (ICSICT)</cite>,
+                Kunming, China, Nov. 3-6, 2020. (Invited Paper)
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C102-ICSICT2020-RL.pdf">Paper</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Rui Lin, Ching-Yun Ko, <strong>Zhuolun He</strong>, Cong Chen, Yuan Cheng, Hao Yu, Graziano Chesi, and
+                Ngai
+                Wong.
+                “<a target="_blank" href="https://ieeexplore.ieee.org/document/9278257">
+                  HOTCAKE: Higher Order Tucker Articulated Kernels for Deeper CNN Compression</a>,”
+                <cite>IEEE International Conference on Solid-State and Integrated Circuit Technology (ICSICT)</cite>,
+                China, Nov. 3-6, 2020. (Invited Paper)
+                [<a target="_blank" href="https://arxiv.org/pdf/2002.12663.pdf">Paper</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Zhuolun He</strong>, Yuzhe Ma, Lu Zhang, Peiyu Liao, Ngai Wong, Bei Yu, and Martin D. F. Wong.
+                “<a target="_blank" href="https://ieeexplore.ieee.org/document/9283518/">
+                  Learn to Floorplan through Acquisition of Effective Local Search Heuristics</a>,”
+                <cite>IEEE International Conference on Computer Design (ICCD)</cite>,
+                Hartford, CT, USA, Oct. 18-21, 2020.
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C101-ICCD2020-RLF.pdf">Paper</a>]
+                [<a target="_blank"
+                  href="https://www.cse.cuhk.edu.hk/~byu/papers/C101-ICCD2020-RLF-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <li>
+              <p>
+                Yuzhe Ma, <strong>Zhuolun He</strong>, Wei Li, Tinghuan Chen, Lu Zhang, and Bei Yu.
+                “<a target="_blank" href="https://dl.acm.org/doi/10.1145/3372780.3378173">
+                  Understanding Graphs in EDA: From Shallow to Deep Learning</a>,”
+                <cite>ACM International Symposium on Physical Design (ISPD)</cite>,
+                Taipei, Mar. 25-Apr. 1, 2020. (Invited Paper)
+                [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C94-ISPD2020-GCN.pdf">Paper</a>]
+              </p>
+            </li>
+            <h4>2019</h4>
+            <li>
+              <p>
+                Ching-Yun Ko, Cong Chen, <strong>Zhuolun He</strong>, Yuke Zhang, Kim Batselier, and Ngai Wong.
+                “<a target="_blank" href="https://ieeexplore.ieee.org/document/8793233">
+                  Deep Model Compression and Inference Speedup of Sum-Product Networks on Tensor Trains</a>,”
+                <cite>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</cite>,
+                2019.
+              </p>
+            </li>
+            <h4>2018</h4>
+            <li>
+              <p>
+                <strong>Zhuolun He</strong>, Hanxian Huang, Ming Jiang, Yuanchao Bai, and Guojie Luo.
+                “<a target="_blank" href="https://ieeexplore.ieee.org/document/8457651">
+                  FPGA-based Real-time Super-resolution System for Ultra High Definition Videos</a>,”
+                <cite>IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM)</cite>,
+                Boulder, CO, USA, Apr. 29-May. 1, 2018.
+                [<a target="_blank" href="https://ceca.pku.edu.cn/docs/20181030012447954751.pdf">Paper</a>]
+                [<a target="_blank" href="./pdf/he2018fpga_based-slides.pdf">Slides</a>]
+              </p>
+            </li>
+            <h4>2017</h4>
+            <li>
+              <p>
+                <strong>Zhuolun He</strong> and Guojie Luo.
+                “<a target="_blank" href="https://dl.acm.org/citation.cfm?id=3021728">
+                  FPGA Acceleration for Computational Glass-Free Displays</a>,”
+                <cite>ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)</cite>,
+                Monterey, CA, USA, Feb. 22-24, 2017.
+                [<a target="_blank"
+                  href="https://ceca.pku.edu.cn/media/lw/d20df1d6acea24bd284908b631c0f99b.pdf">Paper</a>]
+                [<a target="_blank" href="./pdf/he2017fpga-slides.pdf">Slides</a>]
+              </p>
+            </li>
+          </ol>
+        </div>
+        <div class="tab-pane fade" id="calendar-tab-pane" role="tabpanel" aria-labelledby="calendar-tab" tabindex="0">
+          <br>
 
-  <h2>Publication</h2>
-  <ol reversed>
-    <li>
-      <p>
-        Ziyi Wang, Chen Bai, <strong>Zhuolun He</strong>, Guangliang Zhang, Qiang Xu, Tsung-Yi Ho, Yu Huang, and Bei Yu.
-        <!-- “<a target="_blank" href="https://ieeexplore.ieee.org/document/10049639"> -->
-        "FGNN2: A Powerful Pre-training Framework for Learning the Logic Functionality of Circuits,"
-        <cite>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</cite>,
-        2024.
-      </p>
-    </li>
-    <li>
-      <p>
-        Yuan Pu, <strong>Zhuolun He</strong>, Tairu Qiu, Haoyuan Wu, and Bei Yu.
-        <!-- “<a target="_blank" href="https://ieeexplore.ieee.org/document/10049639"> -->
-        "Customized Retrieval Augmented Generation and Benchmarking for EDA Tool Documentation QA,"
-        <cite>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</cite>,
-        Newark, NJ, USA, 2024.
-      </p>
-    </li>
-    <li>
-      <p>
-        Haoyuan Wu, <strong>Zhuolun He</strong>, Xinyun Zhang, Xufeng Yao, Su Zheng, Haisheng Zheng, and Bei Yu.
-        <!-- “<a target="_blank" href="https://ieeexplore.ieee.org/document/10049639"> -->
-        "ChatEDA: A Large Language Model Powered Autonomous Agent for EDA,"
-        <cite>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</cite>,
-        2024.
-      </p>
-    </li>
-    <li>
-      <p>
-        Yuan Pu, Fangzhou Liu, Yu Zhang, <strong>Zhuolun He</strong>, Kai-Yuan Chao, Yibo Lin, and Bei Yu.
-        “Lesyn: Placement-aware Logic Resynthesis for Non-Integer Multiple-Cell-Height Designs,”
-        <cite>ACM/IEEE Design Automation Conference (DAC)</cite>,
-        San Francisco, CA, USA, Jun. 23–27, 2024.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C220-DAC2024-Lesyn.pdf">Paper</a>]
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C220-DAC2024-Lesyn-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Jiaxi Jiang, Lancheng Zou, Wenqian Zhao, <strong>Zhuolun He</strong>, Tinghuan Chen, Bei Yu.
-        “PDRC: Package Design Rule Checking via GPU-Accelerated Geometric Intersection Algorithms for Non-Manhattan
-        Geometry,”
-        <cite>ACM/IEEE Design Automation Conference (DAC)</cite>,
-        San Francisco, CA, USA, Jun. 23–27, 2024.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C219-DAC2024-PDRC.pdf">Paper</a>]
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C219-DAC2024-PDRC-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Fangzhou Liu, Zehua Pei, Ziyang Yu, Haisheng Zheng, <strong>Zhuolun He</strong>, Tinghuan Chen, and Bei Yu.
-        “<a target="_blank" href="https://ieeexplore.ieee.org/document/10546766">
-          CBTune: Contextual Bandit Tuning for Logic Synthesis</a>,”
-        <cite>IEEE/ACM Design, Automation and Test in Europe Conference (DATE)</cite>,
-        Valencia, Spain, Mar. 25–27, 2023.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C208-DATE2024-CBTune.pdf">Paper</a>]
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C208-DATE2024-CBTune-slides.pdf">Slides</a>]
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C208-DATE2024-CBTune-poster.pdf">Poster</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong>Zhuolun He</strong>, and Bei Yu.
-        “<a target="_blank" href="https://doi.org/10.1145/3626184.3639700">
-          Large Language Models for EDA: Future or Mirage?</a>,”
-        <cite>ACM International Symposium on Physical Design (ISPD)</cite>,
-        Taipei, Mar. 12–15, 2024.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C206-ISPD2024-LLM-EDA.pdf">Paper</a>]
-        <!-- [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C149-ICCAD2022-GPU-DRC-slides.pdf">Slides</a>] -->
-      </p>
-    </li>
-    <li>
-      <p>
-        Yuan Pu, Tinghuan Chen, <strong>Zhuolun He</strong>, Chen Bai, Haisheng Zheng, Yibo Lin, and Bei Yu.
-        "<a target="_blank" href="https://doi.org/10.1145/3626184.3633321">
-          IncreMacro: Incremental Macro Placement Refinement</a>,"
-        <cite>ACM International Symposium on Physical Design (ISPD)</cite>,
-        Taipei, Mar. 12–15, 2024. (Best Paper Award Nomination)
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C205-ISPD2024-IncreMacro.pdf">Paper</a>]
-        [<a target="_blank"
-          href="https://www.cse.cuhk.edu.hk/~byu/papers/C205-ISPD2024-IncreMacro-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Siting Liu, Jiaxi Jiang, <strong>Zhuolun He</strong>, Ziyi Wang, Yibo Lin, and Bei Yu.
-        “<a target="_blank" , href="https://doi.org/10.1145/3626184.3633322">
-          Routing-aware Legal Hybrid Bonding Terminal Assignment for 3D Face-to-Face Stacked ICs</a>,”
-        <cite>ACM International Symposium on Physical Design (ISPD)</cite>,
-        Taipei, Mar. 12–15, 2024.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C202-ISPD2024-BTAssign.pdf">Paper</a>]
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C202-ISPD2024-BTAssign-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Haisheng Zheng, <strong>Zhuolun He</strong>, Fangzhou Liu, Zehua Pei, and Bei Yu.
-        “<a target="_blank" href="https://doi.org/10.1109/ASP-DAC58780.2024.10473925">
-          A Logic Synthesis Timing Predictor</a>,”
-        <cite>IEEE/ACM Asian and South Pacific Design Automation Conference (ASPDAC)</cite>,
-        Incheon, South Korea, Jan. 22–25, 2024.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C192-ASPDAC2024-LSTP.pdf">Paper</a>]
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C192-ASPDAC2024-LSTP-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong>Zhuolun He</strong>, and Bei Yu.
-        “<a target="_blank" href="https://doi.org/10.1109/ICCAD57390.2023.10323957">
-          Heterogenous Acceleration for Design Rule Checking</a>,”
-        <cite>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</cite>,
-        San Francisco, CA, USA, Oct. 29-Nov. 2, 2023. (Invited Paper)
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C188-ICCAD2023-HeteroDRC.pdf">Paper</a>]
-        [<a target="_blank"
-          href="https://www.cse.cuhk.edu.hk/~byu/papers/C188-ICCAD2023-HeteroDRC-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Zehua Pei, Fangzhou Liu, <strong>Zhuolun He</strong>, Guojin Chen, Haisheng Zheng, Keren Zhu, and Bei Yu.
-        “<a target="_blank" , href="https://doi.org/10.1109/ICCAD57390.2023.10323856">
-          AlphaSyn: Logic Synthesis Optimization with Efficient Monte Carlo Tree Search</a>,”
-        <cite>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</cite>,
-        San Francisco, CA, USA, Oct. 29-Nov. 2, 2023.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn.pdf">Paper</a>]
-        [<a target="_blank"
-          href="https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn-slides.pdf">Slides</a>]
-        [<a target="_blank"
-          href="https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn-poster.pdf">Poster</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong>Zhuolun He</strong>, Haoyuan Wu, Xinyun Zhang, Xufeng Yao, Su Zheng, Haisheng Zheng, and Bei Yu.
-        “<a target="_blank" href="https://doi.org/10.1109/MLCAD58807.2023.10299852">
-          ChatEDA: A Large Language Model Powered Autonomous Agent for EDA</a>,”
-        <cite>ACM/IEEE Workshop on Machine Learning for CAD (MLCAD)</cite>,
-        Snowbird, UT, USA, Oct. 29–Nov. 2, 2023.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C177-MLCAD2023-ChatEDA.pdf">Paper</a>]
-        [<a target="_blank" href="https://arxiv.org/abs/2308.10204">arXiv</a>]
-        <!-- [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C149-ICCAD2022-GPU-DRC-slides.pdf">Slides</a>] -->
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong>Zhuolun He</strong>, Yihang Zuo, Jiaxi Jiang, Haisheng Zheng, Yuzhe Ma, and Bei Yu.
-        “<a target="_blank" , href="https://doi.org/10.1109/DAC56929.2023.10247734">
-          OpenDRC: An Efficient Open-Source Design Rule Checking Engine with Hierarchical GPU Acceleration</a>,”
-        <cite>ACM/IEEE Design Automation Conference (DAC)</cite>,
-        San Francisco, CA, USA, July 9-13, 2023.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C172-DAC2023-OpenDRC.pdf">Paper</a>]
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C172-DAC2023-OpenDRC-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Zehua Pei, Wenqian Zhao, <strong>Zhuolun He</strong>, and Bei Yu.
-        “<a target="_blank" href="https://ieeexplore.ieee.org/document/10218502/">
-          Quantization for Efficient Layout Hotspot Detection</a>,”
-        <cite>International Symposium of Electronics Design Automation (ISEDA)</cite>,
-        Nanjing, China, May 9–11, 2023.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C161-ISEDA2023-QuanHSD.pdf">Paper</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Bizhao Shi, Jiaxi Zhang, <strong>Zhuolun He</strong>, Xuechao Wei, Sicheng Li, Guojie Luo, Hongzhong Zheng, and
-        Yuan Xie.
-        “<a target="_blank" href="https://ieeexplore.ieee.org/document/10049639">
-          Efficient Super-Resolution System with Block-wise Hybridization and Quantized Winograd on FPGA</a>,”
-        <cite>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</cite>,
-        2023.
-      </p>
-    </li>
-    <li>
-      <p>
-        Ziyi Wang, <strong>Zhuolun He</strong>, Chen Bai, Haoyu Yang, and Bei Yu.
-        “<a target="_blank" href="https://ieeexplore.ieee.org/document/9975800">
-          Efficient Arithmetic Block Identification with Graph Learning and Network-flow</a>,”
-        <cite>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</cite>,
-        2023.
-      </p>
-    </li>
-    <li>
-      <p>
-        Wei Zhong, Zhenhua Feng, <strong>Zhuolun He</strong>, Weimin Wang, Yuzhe Ma, and Bei Yu.
-        “<a target="_blank" href="https://doi.org/10.23919/DATE56975.2023.10137135">
-          Enabling Efficient Design Rule Checking with GPU Acceleration</a>,”
-        <cite>IEEE/ACM Proceedings Design, Automation and Test in Europe (DATE)</cite>,
-        Antwerp, Belgium, Apr. 17-19, 2023. (extended abstract)
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C158-DATE2023-DRC-GPU.pdf">Paper</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Yuxuan Zhao, Qi Sun, <strong>Zhuolun He</strong>, Yang Bai, and Bei Yu.
-        “<a target="_blank" href="https://doi.org/10.1609/aaai.v37i9.26343">
-          Optimizing DNN Computation Graph for Parallel GPU Kernel Execution</a>,”
-        <cite>AAAI Conference on Artificial Intelligence (AAAI)</cite>,
-        Washington, DC, USA, Feb. 7-14, 2023.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C155-AAAI2023-AutoGraph.pdf">Paper</a>]
-        [<a target="_blank"
-          href="https://www.cse.cuhk.edu.hk/~byu/papers/C155-AAAI2023-AutoGraph-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong>Zhuolun He</strong>, Yuzhe Ma, and Bei Yu.
-        “<a target="_blank" href="https://dl.acm.org/doi/10.1145/3508352.3549383">
-          X-Check: GPU-Accelerated Design Rule Checking via Parallel Sweepline Algorithms</a>,”
-        <cite>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</cite>,
-        San Diego, CA, USA, Oct. 30-Nov. 3, 2022.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C149-ICCAD2022-GPU-DRC.pdf">Paper</a>]
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C149-ICCAD2022-GPU-DRC-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Ziyi Wang, Chen Bai, <strong>Zhuolun He</strong>, Guangliang Zhang, Qiang Xu, Tsung-Yi Ho, Bei Yu, and Yu Huang.
-        “<a target="_blank" href="https://dl.acm.org/doi/10.1145/3489517.3530410">
-          Functionality Matters in Netlist Representation Learning</a>,”
-        <cite>ACM/IEEE Design Automation Conference (DAC)</cite>,
-        San Francisco, CA, USA, July 10-14, 2022.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C142-DAC2022-GCL.pdf">Paper</a>]
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C142-DAC2022-GCL-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong>Zhuolun He</strong>, Ziyi Wang, Chen Bai, Haoyu Yang, and Bei Yu.
-        “<a target="_blank" href="https://ieeexplore.ieee.org/document/9643581">
-          Graph Learning-Based Arithmetic Block Identification</a>,”
-        <cite>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</cite>,
-        Munich, Germany, Nov. 1-4, 2021.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C123-ICCAD2021-ReveGCN.pdf">Paper</a>]
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C123-ICCAD2021-ReveGCN-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong>Zhuolun He</strong>, Peiyu Liao, Siting Liu, Yuzhe Ma, and Bei Yu.
-        “<a target="_blank" href="https://dl.acm.org/doi/10.1145/3394885.3431625">
-          Physical Synthesis for Advanced Neural Network Processors</a>,”
-        <cite>IEEE/ACM Asian and South Pacific Design Automation Conference (ASPDAC)</cite>,
-        Tokyo, Japan, Jan. 18-21, 2021. (Invited Paper)
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C110-ASPDAC2021-CUPID.pdf">Paper</a>]
-        [<a target="_blank" href="https//www.cse.cuhk.edu.hk/~byu/papers/C110-ASPDAC2021-CUPID-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong>Zhuolun He</strong>, Lu Zhang, Peiyu Liao, Yuzhe Ma, and Bei Yu.
-        “<a target="_blank" href="https://ieeexplore.ieee.org/document/9278350/">
-          Reinforcement Learning Driven Physical Synthesis</a>,”
-        <cite>IEEE International Conference on Solid -State and Integrated Circuit Technology (ICSICT)</cite>,
-        Kunming, China, Nov. 3-6, 2020. (Invited Paper)
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C102-ICSICT2020-RL.pdf">Paper</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Rui Lin, Ching-Yun Ko, <strong>Zhuolun He</strong>, Cong Chen, Yuan Cheng, Hao Yu, Graziano Chesi, and Ngai
-        Wong.
-        “<a target="_blank" href="https://ieeexplore.ieee.org/document/9278257">
-          HOTCAKE: Higher Order Tucker Articulated Kernels for Deeper CNN Compression</a>,”
-        <cite>IEEE International Conference on Solid-State and Integrated Circuit Technology (ICSICT)</cite>,
-        China, Nov. 3-6, 2020. (Invited Paper)
-        [<a target="_blank" href="https://arxiv.org/pdf/2002.12663.pdf">Paper</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong>Zhuolun He</strong>, Yuzhe Ma, Lu Zhang, Peiyu Liao, Ngai Wong, Bei Yu, and Martin D. F. Wong.
-        “<a target="_blank" href="https://ieeexplore.ieee.org/document/9283518/">
-          Learn to Floorplan through Acquisition of Effective Local Search Heuristics</a>,”
-        <cite>IEEE International Conference on Computer Design (ICCD)</cite>,
-        Hartford, CT, USA, Oct. 18-21, 2020.
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C101-ICCD2020-RLF.pdf">Paper</a>]
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C101-ICCD2020-RLF-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Yuzhe Ma, <strong>Zhuolun He</strong>, Wei Li, Tinghuan Chen, Lu Zhang, and Bei Yu.
-        “<a target="_blank" href="https://dl.acm.org/doi/10.1145/3372780.3378173">
-          Understanding Graphs in EDA: From Shallow to Deep Learning</a>,”
-        <cite>ACM International Symposium on Physical Design (ISPD)</cite>,
-        Taipei, Mar. 25-Apr. 1, 2020. (Invited Paper)
-        [<a target="_blank" href="https://www.cse.cuhk.edu.hk/~byu/papers/C94-ISPD2020-GCN.pdf">Paper</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        Ching-Yun Ko, Cong Chen, <strong>Zhuolun He</strong>, Yuke Zhang, Kim Batselier, and Ngai Wong.
-        “<a target="_blank" href="https://ieeexplore.ieee.org/document/8793233">
-          Deep Model Compression and Inference Speedup of Sum-Product Networks on Tensor Trains</a>,”
-        <cite>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</cite>,
-        2019.
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong>Zhuolun He</strong>, Hanxian Huang, Ming Jiang, Yuanchao Bai, and Guojie Luo.
-        “<a target="_blank" href="https://ieeexplore.ieee.org/document/8457651">
-          FPGA-based Real-time Super-resolution System for Ultra High Definition Videos</a>,”
-        <cite>IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM)</cite>,
-        Boulder, CO, USA, Apr. 29-May. 1, 2018.
-        [<a target="_blank" href="https://ceca.pku.edu.cn/docs/20181030012447954751.pdf">Paper</a>]
-        [<a target="_blank" href="./pdf/he2018fpga_based-slides.pdf">Slides</a>]
-      </p>
-    </li>
-    <li>
-      <p>
-        <strong>Zhuolun He</strong> and Guojie Luo.
-        “<a target="_blank" href="https://dl.acm.org/citation.cfm?id=3021728">
-          FPGA Acceleration for Computational Glass-Free Displays</a>,”
-        <cite>ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)</cite>,
-        Monterey, CA, USA, Feb. 22-24, 2017.
-        [<a target="_blank" href="https://ceca.pku.edu.cn/media/lw/d20df1d6acea24bd284908b631c0f99b.pdf">Paper</a>]
-        [<a target="_blank" href="./pdf/he2017fpga-slides.pdf">Slides</a>]
-      </p>
-    </li>
-  </ol>
+          <!-- <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FHong_Kong&showTitle=0&mode=WEEK&showPrint=0&showTabs=0&showCalendars=0&showDate=1&showNav=1&hl=en&src=emxlb25oZUBnbWFpbC5jb20&color=%234285F4"
+            style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
 
-  <h2>Random Facts</h2>
-  <ul>
-    <li>
-      <p>I obtained my B.Sc. degree in Computer Science and Technology from Peking University in 2017, where my thesis
-        entitled "Architecture Support for Monadic Serial Dynamic Programming Algorithm" was honored with the
-        Outstanding
-        Dissertation Award at EECS. In fact, my general interests in computer science have never been beyond
-        architectures, algorithms, and programming paradigms.</p>
-    </li>
-    <li>
-      <p>I (and my team) won the championship of EDAthon 2018 and the 3rd place in ISPD contest 2020. <span
-          style="color:gray"><del>However, my
-            ultimate career goal is to become a senior high school coach for NOI/ICPC.</del></span> I am now more open
-        to various options for career development.</p>
-    </li>
-    <li>
-      <p>My other experience: Research Intern@ShAILab (2022-2023), Research Intern@SmartMore (2020-2022), Research
-        Assistant@HKU (2018-2019), Ph.D. Student@PKU (2017-2018)</p>
-    </li>
-    <!-- <li>
-      <p>Links to my peers:
-        <a target="_blank" href="https://ireneko.github.io">Irene</a>,
-        <a target="_blank" href="https://ttic.uchicago.edu/~freda/">Freda</a>,
-        <a target="_blank" href="http://yuzhe630.github.io/">Yuzhe</a>,
-        and <a target="_blank" href="https://wadmes.github.io/cv/">Wei</a>.
-      </p>
-    </li> -->
-  </ul>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FHong_Kong&showPrint=0&showTabs=0&mode=WEEK&showTitle=0&src=emxlb25oZUBnbWFpbC5jb20&color=%23616161" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-  <h2>Calendar</h2>
-  <iframe
-    src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FHong_Kong&showTitle=0&mode=WEEK&showPrint=0&showTabs=0&showCalendars=0&showDate=1&showNav=1&hl=en&src=emxlb25oZUBnbWFpbC5jb20&color=%234285F4"
-    style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-  <br>
-  <!-- <footer>
-    <hr>
-    My previous personal page is still available <a target="_blank" href="./backup.html">here</a>.
-    Contact me at <a href="mailto://zleonhe@gmail.com" target="_blank">zleonhe@gmail.com</a>.
-  </footer> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
