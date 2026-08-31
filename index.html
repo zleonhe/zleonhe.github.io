@@ -15,15 +15,14 @@
   <header style="margin-top: 20px; margin-bottom: 2rem;">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center gap-4">
-      <img src="images/about.jpg" style="width: 180px; border-radius: 4px;">
-      <div>
+        <img src="images/about.jpg" style="width: 180px; border-radius: 4px;">
+        <div>
           <h2>Zhuolun (Leon) HE</h2>
           <hr style="margin-top: 10px; width: 80%">
           <p style="line-height: 1.35">
-            Postdoctoral Fellow<br>
-            <a target="_blank" href="https://www.cse.cuhk.edu.hk/">Department of Computer Science and
-              Engineering</a><br>
-            <a target="_blank" href="https://www.cuhk.edu.hk/">The Chinese University of Hong Kong</a><br>
+            Assistant Professor<br>
+            <a target="_blank" href="https://www.cs.tsinghua.edu.cn/csen/">Department of Computer Science and Technology</a><br>
+            <a target="_blank" href="https://www.tsinghua.edu.cn/">Tsinghua University</a><br>
           </p>
           <p>
             <small>
@@ -59,8 +58,7 @@
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
           tabindex="0">
-          <p>I am a postdoctoral researcher at the Department of Computer Science and Engineering, Chinese University of
-            Hong Kong.
+          <p>I will join Tsinghua University as an Assistant Professor.
             I received my Ph.D. degree from CUHK in 2023, supervised by Prof. <a target="_blank"
               href="https://www.cse.cuhk.edu.hk/~byu/">Bei Yu</a>, and my B.Sc. degree from Peking University in 2017.
             I received the <a target="_blank"
@@ -74,8 +72,10 @@
               href="./images/2020-ISPD-contest-3rd.png">3rd place in ISPD contest 2020</a>.
           </p>
           <p>
-            I work on AI-driven chip design automation, with current focuses on LLM agents for verification, flow orchestration, and domain-specific codegen.
-            Previously I have also worked on netlist representation learning, GPU-accelerated physical verification, physical design, and heterogeneous accelerator design.
+            I work on AI-driven chip design automation, with current focuses on LLM agents for verification, flow
+            orchestration, and domain-specific codegen.
+            Previously I have also worked on netlist representation learning, GPU-accelerated physical verification,
+            physical design, and heterogeneous accelerator design.
             We are extending our approaches to broader complex engineering scenarios.
           </p>
         </div>
@@ -97,6 +97,54 @@
     const publications = [
       {
         year: 2026,
+        authors: 'Rui Ming, Haoyuan Wu, Shoubo Hu, <strong>Zhuolun He</strong>, and Bei Yu.',
+        title: 'One-Token Rollout: Guiding Supervised Fine-Tuning of LLMs with Policy Gradient',
+        titleUrl: null,
+        venue: 'Empirical Methods in Natural Language Processing (EMNLP)',
+        location: 'Budapest, Hungary, Oct. 24–29, 2026.',
+        note: '',
+        links: [
+          // { label: 'Paper', url: '' }
+        ]
+      },
+      {
+        year: 2026,
+        authors: 'Yuan Pu, Yudong He, Zhenghao Chen, Mingjun Wang, Bingkun Yao, Zhaotan Lin, Qin Chen, Bing Li, Song Chen, <strong>Zhuolun He</strong>, Wenjian Yu, Yanfeng Li, and Bei Yu.',
+        title: 'ChatFCM: Comprehension-Synthesis Decoupling for LLM-Based Functional Coverage Model Generation',
+        titleUrl: null,
+        venue: 'IEEE/ACM International Conference on Computer-Aided Design (ICCAD)',
+        location: 'San Jose, CA, USA, Nov. 08–12, 2026.',
+        note: '',
+        links: [
+          // { label: 'Paper', url: '' }
+        ]
+      },
+      {
+        year: 2026,
+        authors: 'Yuheng Huang, Yuhan Qin, Yuan Pu, Zhaotan Lin, Yuntao Nie, <strong>Zhuolun He</strong>, Jianwang Zhai, Kang Zhao, and Bei Yu.',
+        title: 'A Multi-Granularity Retrieval Augmented Generation Framework for EDA Tasks Leveraging Knowledge Graph',
+        titleUrl: null,
+        venue: 'IEEE/ACM International Conference on Computer-Aided Design (ICCAD)',
+        location: 'San Jose, CA, USA, Nov. 08–12, 2026.',
+        note: '',
+        links: [
+          // { label: 'Paper', url: '' }
+        ]
+      },
+      {
+        year: 2026,
+        authors: 'Siyang Chen, Yuan Pu, Yuhan Qin, Zhaotan Lin, Siyuan Liang, <strong>Zhuolun He</strong>, Lining Zhang, and Bei Yu.',
+        title: 'SGLayout: Schema-Guided Closed-Loop Refinement for LLM-Driven Parameterized Layout Generation',
+        titleUrl: null,
+        venue: 'IEEE/ACM International Conference on Computer-Aided Design (ICCAD)',
+        location: 'San Jose, CA, USA, Nov. 08–12, 2026.',
+        note: '',
+        links: [
+          // { label: 'Paper', url: '' }
+        ]
+      },
+      {
+        year: 2026,
         authors: 'Yuqi Jiang, Qian Jin, Xudong Lu, Xiangyue Lyu, <strong>Zhuolun He</strong>, Xunzhao Yin, Yali Fu, Dawei Gao, Bei Yu, Qi Sun, Hanming Wu, and Cheng Zhuo.',
         title: 'FabGPT: An Efficient Large Multimodal Model for Complex Wafer Defect Knowledge Queries',
         titleUrl: 'https://doi.org/10.1109/TCAD.2026.3664304',
@@ -111,19 +159,19 @@
         year: 2026,
         authors: 'Mingzi Wang, Lancheng Zou, Shuo Yin, <strong>Zhuolun He</strong>, and Bei Yu.',
         title: 'S-Quant: Rethinking Weight Quantization with Seed-Based Generation',
-        titleUrl: null,
+        titleUrl: 'https://icml.cc/virtual/2026/poster/65030',
         venue: 'International Conference on Machine Learning (ICML)',
         location: 'Seoul, South Korea, Jul. 6–11, 2026.',
         note: '',
         links: [
-          // { label: 'Paper', url: 'https://www.cse.cuhk.edu.hk/~byu/papers/C322-DATE2026-MAEDA.pdf' }
+          { label: 'Paper', url: 'https://www.cse.cuhk.edu.hk/~byu/papers/C358-ICML2026-S-Quant.pdf' }
         ]
       },
       {
         year: 2026,
         authors: 'Zhenghao Chen, Yuan Pu, Hairuo Han, Yuntao Nie, Jiajun Qin, Yuhan Qin, Tairu Qiu, <strong>Zhuolun He</strong>, Jianwang Zhai, Bei Yu, and Kang Zhao.',
         title: 'MAEDA: An LLM-Powered Multi-Agent Evaluation Framework for EDA Tool Documentation QA',
-        titleUrl: null,
+        titleUrl: 'https://doi.org/10.23919/DATE69613.2026.11539506',
         venue: 'IEEE/ACM Proceedings Design, Automation and Test in Europe (DATE)',
         location: 'Verona, Italy, Apr. 20–22, 2026.',
         note: '',
@@ -264,17 +312,21 @@
         year: 2025,
         authors: 'Haisheng Zheng, Haoyuan Wu, and <strong>Zhuolun He</strong>.',
         title: 'ChatLS: Multimodal Retrieval-Augmented Generation and Chain-of-Thought for Logic Synthesis Script Customization',
-        titleUrl: null,
+        titleUrl: 'https://doi.org/10.1109/DAC63849.2025.11132969',
         venue: 'ACM/IEEE Design Automation Conference (DAC)',
         location: 'San Francisco, CA, USA, Jun. 22–25, 2025.',
         note: '',
-        links: []
+        links: [
+          { label: 'Paper', url: "https://leozheng.tech/papers/C13-DAC'25-ChatLS.pdf" },
+          { label: 'Slides', url: "https://leozheng.tech/papers/C13-DAC'25-ChatLS-slides.pdf" },
+          { label: 'Poster', url: "https://leozheng.tech/papers/C13-DAC'25-ChatLS-poster.pdf" }
+        ]
       },
       {
         year: 2025,
         authors: 'Hang Liu, Hao Geng, <strong>Zhuolun He</strong>, Qi Sun, and Cheng Zhuo.',
         title: 'Swift or Exact? Boosting Efficient Microarchitecture DSE via Multi-fidelity Partial Order Prediction',
-        titleUrl: null,
+        titleUrl: 'https://doi.org/10.1109/DAC63849.2025.11133073',
         venue: 'ACM/IEEE Design Automation Conference (DAC)',
         location: 'San Francisco, CA, USA, Jun. 22–25, 2025.',
         note: '',
