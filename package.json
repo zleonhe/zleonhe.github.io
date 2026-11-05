@@ -1,0 +1,19 @@
+{
+  "name": "zleonhe-homepage",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "make data && astro dev",
+    "build": "make site",
+    "preview": "astro preview",
+    "data": "make data",
+    "check:data": "make check"
+  },
+  "dependencies": {
+    "astro": "^5.16.0"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

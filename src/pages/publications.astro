@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Publication from '../components/Publication.astro';
+import publications from '../data/publications.json';
+const categories = ['journal', 'conference', 'workshop'];
+const published = publications.filter(pub => pub.category !== 'preprint');
+const years = [...new Set(published.map(pub => pub.year))].sort((a, b) => b - a);
+const preprints = publications.filter(pub => pub.category === 'preprint')
+  .sort((a, b) => a.cvOrder - b.cvOrder);
+---
+<Layout title="Publications | Zhuolun (Leon) He">
+  <h1>Publications</h1>
+  <nav class="publication-categories" aria-label="Publication years">
+    {years.map(year => <a href={`#year-${year}`}>{year}</a>)}
+    {preprints.length > 0 && <a href="#preprints">Preprints</a>}
+  </nav>
+  {years.map(year => (
+    <section id={`year-${year}`} aria-labelledby={`heading-${year}`}>
+      <h2 id={`heading-${year}`}>{year}</h2>
+      {categories.map(category => {
+        const papers = published.filter(pub => pub.year === year && pub.category === category)
+          .sort((a, b) => a.cvOrder - b.cvOrder);
+        return papers.length > 0 && (
+          <div class="publication-group">
+            {papers.map(publication => <Publication publication={publication} />)}
+          </div>
+        );
+      })}
+    </section>
+  ))}
+  {preprints.length > 0 && (
+    <section id="preprints" aria-labelledby="preprints-heading">
+      <h2 id="preprints-heading">Preprints</h2>
+      {preprints.map(publication => <Publication publication={publication} />)}
+    </section>
+  )}
+</Layout>

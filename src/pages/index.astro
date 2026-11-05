@@ -1,0 +1,56 @@
+---
+import { localUrl } from '../lib/urls';
+import Layout from '../layouts/Layout.astro';
+---
+<Layout>
+  <div class="profile">
+    <img class="portrait" src={localUrl('/images/about.jpg')} alt="Zhuolun (Leon) He" width="160" height="190" />
+    <div>
+      <h1>Zhuolun (Leon) He</h1>
+      <p class="profile-affiliation">
+        Assistant Professor<br />
+        Department of Computer Science and Technology<br />
+        Tsinghua University
+      </p>
+      <div class="profile-links">
+        <a href="mailto:zlhe@tsinghua.edu.cn">zlhe@tsinghua.edu.cn</a>{' / '}
+        <a href="mailto:zleonhe@gmail.com">zleonhe@gmail.com</a>{' '}
+        <a target="_blank" rel="noopener noreferrer" href={localUrl('/pdf/zhuolun_he_cv.pdf')}>[CV]</a>{' '}
+        <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user=_UUpQe8AAAAJ&hl=en">[Google Scholar]</a>
+      </div>
+    </div>
+  </div>
+  <p>I am an Assistant Professor in the <a target="_blank" rel="noopener noreferrer" href="https://www.cs.tsinghua.edu.cn/csen/">Department of Computer Science and Technology</a> at <a target="_blank" rel="noopener noreferrer" href="https://www.tsinghua.edu.cn/">Tsinghua University</a>, and a member of the <a target="_blank" rel="noopener noreferrer" href="https://eda.cs.tsinghua.edu.cn/">EDA Lab</a>. I received my Ph.D. from <a target="_blank" rel="noopener noreferrer" href="https://www.cuhk.edu.hk/english/index.html">the Chinese University of Hong Kong</a> in 2023, supervised by <a target="_blank" rel="noopener noreferrer" href="https://www.cse.cuhk.edu.hk/~byu/">Prof. Bei Yu</a>, and my B.Sc. from <a target="_blank" rel="noopener noreferrer" href="https://english.pku.edu.cn/">Peking University</a> in 2017. I serve as an Associate Editor of <a target="_blank" rel="noopener noreferrer" href="https://www.sciencedirect.com/journal/integration"><cite>Integration, the VLSI Journal</cite></a>.</p>
+  <p>My research interests are in artificial intelligence and electronic design automation. I study how large language models infer formal representations of domain knowledge and design intent, enabling downstream computation through algorithms, compilation, and automated reasoning. In particular, my current work targets chip verification, where a central challenge is to ensure that every conclusion is faithful to a specification and justified under explicit assumptions. I have also worked on netlist representation learning, physical design optimization, and efficient physical verification.</p>
+  <p>I am looking for self-motivated Ph.D. students starting in Fall 2028 and undergraduate research interns. If you are interested in working with me, please <a href="mailto:zlhe@tsinghua.edu.cn">email me</a> your CV and a brief description of your research interests.</p>
+  <section aria-label="Representative work">
+    <p>Some recent work on LLMs for EDA:</p>
+    <ul class="work-list">
+      <li><strong>Survey:</strong> <a href={localUrl('/publications/#pub-41')}>Large Language Models for EDA: Future or Mirage?</a>.</li>
+      <li><strong>Design &amp; verification agents:</strong> <a href={localUrl('/publications/#pub-28')}>ChatEDA</a>, <a href={localUrl('/publications/#pub-36')}>EDAid</a>, <a href={localUrl('/publications/#pub-38')}>ChatLS</a>, <a href={localUrl('/publications/#pub-53')}>SGLayout</a>, <a href={localUrl('/publications/#pub-55')}>ChatFCM</a>.</li>
+      <li><strong>Knowledge &amp; evaluation:</strong> <a href={localUrl('/publications/#pub-42')}>RAG-EDA</a>, <a href={localUrl('/publications/#pub-44')}>MM-GRADE</a>, <a href={localUrl('/publications/#pub-54')}>Knowledge Graph RAG</a>, <a href={localUrl('/publications/#pub-50')}>MAEDA</a>.</li>
+    </ul>
+    <p>Some work on design and verification:</p>
+    <ul class="work-list">
+      <li><strong>Netlist representation learning:</strong> <a href={localUrl('/publications/#pub-14')}>arithmetic block identification</a>, <a href={localUrl('/publications/#pub-10')}>functionality-aware representations</a>, <a href={localUrl('/publications/#pub-31')}>FGNN2</a>.</li>
+      <li><strong>Physical design optimization:</strong> <a href={localUrl('/publications/#pub-5')}>RL-based floorplanning</a>, <a href={localUrl('/publications/#pub-8')}>datapath-driven floorplanning</a>, <a href={localUrl('/publications/#pub-35')}>IncreMacro</a>, <a href={localUrl('/publications/#pub-27')}>Lesyn</a>.</li>
+      <li><strong>Physical verification:</strong> <a href={localUrl('/publications/#pub-11')}>X-Check</a>, <a href={localUrl('/publications/#pub-17')}>OpenDRC</a>, <a href={localUrl('/publications/#pub-26')}>PDRC</a>, <a href={localUrl('/publications/#pub-40')}>EasyMRC</a>.</li>
+    </ul>
+    <p><a href={localUrl('/publications/')}>Full publication list →</a></p>
+  </section>
+  <section aria-labelledby="awards-heading">
+    <h2 id="awards-heading">Selected Honors</h2>
+    <ul>
+      <li><a target="_blank" rel="noopener noreferrer" href="https://www.cse.cuhk.edu.hk/~byu/img/news/2025-ISPD-BPA-nomination.pdf">Best Paper Award Nomination, ISPD 2025</a></li>
+      <li>Best Paper Award Nomination, ICCAD 2024</li>
+      <li><a href={localUrl('/images/2024-ISPD-BPA-nomination.pdf')}>Best Paper Award Nomination, ISPD 2024</a></li>
+      <li><a href={localUrl('/images/2020-ISPD-contest-3rd.png')}>Third Place, ISPD Contest 2020</a></li>
+      <li><a href={localUrl('/images/2018-EDAthon-champion.pdf')}>Champion, EDAthon 2018</a></li>
+    </ul>
+  </section>
+
+  <section id="teaching" aria-labelledby="teaching-heading">
+    <h2 id="teaching-heading">Teaching</h2>
+    <p>Course information will be added here.</p>
+  </section>
+</Layout>

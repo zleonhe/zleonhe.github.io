@@ -1,0 +1,55 @@
+:root {
+  font-family: Verdana, 'PingFang SC', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #111;
+  background: #fff;
+  --link: #0645ad;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+.site-header, main { width: min(100% - 48px, 1000px); margin-inline: auto; }
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; }
+.site-header nav { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 26px; padding-block: 16px; }
+.site-header a { color: #333; }
+.site-header a[aria-current='page'] { color: var(--link); font-weight: 700; }
+main { padding-block: 18px 48px; }
+h1, h2, h3 { line-height: 1.35; }
+h1 { font-size: 28px; margin: 0 0 14px; }
+h2 { font-size: 20px; margin: 0 0 12px; }
+h3 { font-size: 15px; margin: 0 0 5px; }
+p { margin: 0 0 16px; }
+section { margin-top: 28px; }
+ul { padding-left: 24px; margin-block: 0 16px; }
+li { margin-bottom: 6px; }
+.work-list li { margin-bottom: 10px; }
+section[id], article[id], main { scroll-margin-top: 72px; }
+.profile { display: flex; align-items: center; gap: 28px; margin-bottom: 24px; }
+.profile h1 { margin-bottom: 8px; }
+.profile-affiliation { font-size: 14px; line-height: 1.4; margin-bottom: 8px; }
+.portrait { width: 150px; height: 180px; object-fit: cover; border-radius: 2px; }
+.profile-links { font-size: 13px; }
+.publication-categories { display: flex; flex-wrap: wrap; gap: 10px 20px; font-size: 13px; }
+.publication-group + .publication-group { margin-top: 22px; }
+.publication { margin-bottom: 20px; }
+.publication-label { font-weight: 400; white-space: nowrap; }
+.publication p { font-size: 13px; margin-bottom: 4px; }
+.authors { color: #444; }
+cite { font-style: normal; }
+.note { color: var(--link); }
+.paper-links { display: flex; flex-wrap: wrap; gap: 16px; }
+.skip-link { position: absolute; top: -100px; left: 12px; background: #fff; padding: 8px; z-index: 20; }
+.skip-link:focus { top: 8px; }
+@media (max-width: 600px) {
+  .site-header, main { width: calc(100% - 32px); }
+  .site-header nav { gap: 22px; }
+  .profile { gap: 20px; }
+  .portrait { width: 100px; height: 126px; }
+  h1 { font-size: 23px; }
+}
+@media (max-width: 360px) {
+  .profile { align-items: flex-start; flex-direction: column; }
+}

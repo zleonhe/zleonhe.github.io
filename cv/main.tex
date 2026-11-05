@@ -1,0 +1,77 @@
+\documentclass[11pt]{article}
+\usepackage{academiccv}
+\usepackage[backend=biber,style=numeric,sorting=none,maxbibnames=99,maxcitenames=99,giveninits=false,doi=false,url=false,isbn=false]{biblatex}
+\addbibresource{publication.bib}
+\DeclareNameAlias{author}{given-family}
+\renewcommand*{\mkbibnamegiven}[1]{\ifboolexpr{test {\ifdefstring{\namepartfamily}{He}} and test {\ifdefstring{\namepartgiven}{Zhuolun}}}{\textbf{#1}}{#1}}
+\renewcommand*{\mkbibnamefamily}[1]{\ifboolexpr{test {\ifdefstring{\namepartfamily}{He}} and test {\ifdefstring{\namepartgiven}{Zhuolun}}}{\textbf{#1}}{#1}}
+\DeclareFieldFormat[article,inproceedings,misc]{title}{\iffieldundef{doi}{\iffieldundef{url}{#1}{\href{\thefield{url}}{#1}}}{\href{https://doi.org/\thefield{doi}}{#1}}}
+\DeclareFieldFormat{note}{\textit{#1}}
+\DeclareBibliographyDriver{article}{\printnames{author}\setunit{\addperiod\space}\printfield{title}\setunit{\addperiod\space}\printfield{journaltitle}\setunit{\addcomma\space}\printfield{year}\newunit\printfield{note}\usebibmacro{finentry}}
+\DeclareBibliographyDriver{inproceedings}{\printnames{author}\setunit{\addperiod\space}\printfield{title}\setunit{\addperiod\space}\printfield{booktitle}\setunit{\addcomma\space}\printfield{year}\newunit\printfield{note}\usebibmacro{finentry}}
+\DeclareBibliographyDriver{misc}{\printnames{author}\setunit{\addperiod\space}\printfield{title}\setunit{\addperiod\space}\printtext{\href{https://arxiv.org/abs/\thefield{eprint}}{arXiv:\thefield{eprint}}}\setunit{\addcomma\space}\printfield{year}\usebibmacro{finentry}}
+\setlength{\bibitemsep}{6pt}
+\setlength{\biblabelsep}{7pt}
+\AtBeginBibliography{\small\raggedright\interlinepenalty=10000\clubpenalty=10000\widowpenalty=10000}
+
+\begin{document}
+{\LARGE\bfseries Zhuolun (Leon) He}\par
+Assistant Professor, Department of Computer Science and Technology\\
+Tsinghua University\par
+\href{mailto:zlhe@tsinghua.edu.cn}{zlhe@tsinghua.edu.cn}\enspace\textperiodcentered\enspace
+\href{https://eda.cs.tsinghua.edu.cn/\%7Ezlhe/}{eda.cs.tsinghua.edu.cn/\textasciitilde zlhe/}\par
+
+\section{Research Interests}
+Artificial intelligence for electronic design automation: agentic EDA, knowledge representation and formal modeling, large-scale automated reasoning and theorem proving, netlist representation learning, and efficient physical verification.
+
+\section{Academic Appointments}
+\appointment{Tsinghua University}{Beijing, China}{Assistant Professor}{Oct. 2026 -- Present}
+\entrygap
+\appointment{The Chinese University of Hong Kong}{Hong Kong}{Postdoctoral Fellow}{Nov. 2023 -- Aug. 2026}
+
+\section{Education}
+\appointment{The Chinese University of Hong Kong}{Hong Kong}{Ph.D. in Computer Science and Engineering}{Aug. 2019 -- Aug. 2023}
+\begin{entrydetails}
+Supervisor: Prof. Bei Yu\\
+Thesis: The Trio of Learning, Optimization, and Acceleration for Efficient Electronic Design Automation
+\end{entrydetails}
+\entrygap
+\appointment{Peking University}{Beijing, China}{Doctoral studies in Computer Architecture}{Sept. 2017 -- Sept. 2018}
+\begin{entrydetails}Supervisor: Prof. Guojie Luo\end{entrydetails}
+\entrygap
+\appointment{Peking University}{Beijing, China}{B.S. in Computer Science and Technology}{Sept. 2013 -- Jul. 2017}
+\begin{entrydetails}Thesis: Architecture Support for Monadic Serial Dynamic Programming Algorithm\end{entrydetails}
+
+\section{Honors and Awards}
+\begin{itemize}
+\item Best Paper Award Nomination, ISPD \hfill 2025
+\item Best Paper Award Nomination, ICCAD \hfill 2024
+\item Best Paper Award Nomination, ISPD \hfill 2024
+\item\vspace{4pt} Third Place, ISPD Contest \hfill 2020
+\item Champion, EDAthon \hfill 2018
+\item 2nd Prize (Enterprise Track) \hfill 2025\\
+{\small 8th China Graduate IC Innovation Contest}
+\item 3rd Prize (Team Competition) \hfill 2025\\
+{\small 8th China Graduate IC Innovation Contest}
+\item\vspace{4pt} Outstanding Dissertation Award, School of EECS, Peking University \hfill 2017
+\end{itemize}
+
+\clearpage
+\section{Publications}
+\input{build/publications.tex}
+
+\needspace{20\baselineskip}
+\section{Academic Service}
+\textbf{Associate Editor}, \textit{Integration, the VLSI Journal}\hfill Dec. 2025 -- Present
+
+\section{Earlier Research Experience}
+\appointment{Shanghai AI Laboratory}{Shanghai, China}{Research Intern}{Sept. 2022 -- Oct. 2023}
+\entrygap
+\appointment{SmartMore}{Hong Kong}{Research Intern}{Jun. 2020 -- Apr. 2022}
+\entrygap
+\appointment{The University of Hong Kong}{Hong Kong}{Research Assistant}{Nov. 2018 -- Jul. 2019}
+
+\section{Technical Skills}
+\textbf{Programming:} C/C++, Python; CUDA, HLS-C, JavaScript/TypeScript, MATLAB, Rust.\\
+\textbf{Tools and frameworks:} Bash, Bootstrap, \LaTeX, PyTorch, Taskflow.
+\end{document}

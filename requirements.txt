@@ -1,0 +1,3 @@
+latexcodec==3.0.1
+pybtex==0.25.1
+PyYAML==6.0.3

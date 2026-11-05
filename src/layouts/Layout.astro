@@ -1,0 +1,31 @@
+---
+import { localUrl } from '../lib/urls';
+import '../styles/global.css';
+interface Props {
+  title?: string;
+}
+const { title = 'Zhuolun (Leon) He | Tsinghua University' } = Astro.props;
+const isPublications = Astro.url.pathname.startsWith(localUrl('/publications/'));
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Zhuolun (Leon) He, Assistant Professor at Tsinghua University. Research in artificial intelligence and electronic design automation." />
+    <title>{title}</title>
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <link rel="icon" href={localUrl('/favicon.ico')} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav aria-label="Main navigation">
+        <a href={localUrl('/')} aria-current={!isPublications ? 'page' : undefined}>Home</a>
+        <a href={localUrl('/publications/')} aria-current={isPublications ? 'page' : undefined}>Publications</a>
+        <a href={localUrl('/#teaching')}>Teaching</a>
+      </nav>
+    </header>
+    <main id="main"><slot /></main>
+  </body>
+</html>

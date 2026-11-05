@@ -1,0 +1,1713 @@
+[
+  {
+    "id": "qin2027formalpcell",
+    "key": "qin2027formalpcell",
+    "year": 2027,
+    "category": "conference",
+    "authors": [
+      "Yuhan Qin",
+      "Yuan Pu",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "FormalPCell: Formal DRC Verification of Parameterized Layout Cells via Symbolic Interpretation and SMT Solving",
+    "titleUrl": "https://easychair.org/smart-program/ASP-DAC2027/2027-01-26.html",
+    "venue": "IEEE/ACM Asian and South Pacific Design Automation Conference (ASPDAC)",
+    "location": "Tokyo, Japan, Jan. 25–28, 2027.",
+    "note": "To appear",
+    "links": [],
+    "label": "C44",
+    "cvOrder": 0
+  },
+  {
+    "id": "pub-56",
+    "key": "ming2026onetoken",
+    "year": 2026,
+    "category": "conference",
+    "authors": [
+      "Rui Ming",
+      "Haoyuan Wu",
+      "Shoubo Hu",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "One-Token Rollout: Guiding Supervised Fine-Tuning of LLMs with Policy Gradient",
+    "titleUrl": null,
+    "venue": "Empirical Methods in Natural Language Processing (EMNLP)",
+    "location": "Budapest, Hungary, Oct. 24–29, 2026.",
+    "note": "",
+    "links": [],
+    "label": "C40",
+    "cvOrder": 4
+  },
+  {
+    "id": "pub-55",
+    "key": "pu2026chatfcm",
+    "year": 2026,
+    "category": "conference",
+    "authors": [
+      "Yuan Pu",
+      "Yudong He",
+      "Zhenghao Chen",
+      "Mingjun Wang",
+      "Bingkun Yao",
+      "Zhaotan Lin",
+      "Qin Chen",
+      "Bing Li",
+      "Song Chen",
+      "Zhuolun He",
+      "Wenjian Yu",
+      "Yanfeng Li",
+      "Bei Yu"
+    ],
+    "title": "ChatFCM: Comprehension-Synthesis Decoupling for LLM-Based Functional Coverage Model Generation",
+    "titleUrl": null,
+    "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+    "location": "San Jose, CA, USA, Nov. 8–12, 2026.",
+    "note": "",
+    "links": [],
+    "label": "C43",
+    "cvOrder": 1
+  },
+  {
+    "id": "pub-54",
+    "key": "huang2026multigranularity",
+    "year": 2026,
+    "category": "conference",
+    "authors": [
+      "Yuheng Huang",
+      "Yuhan Qin",
+      "Yuan Pu",
+      "Zhaotan Lin",
+      "Yuntao Nie",
+      "Zhuolun He",
+      "Jianwang Zhai",
+      "Kang Zhao",
+      "Bei Yu"
+    ],
+    "title": "A Multi-Granularity Retrieval Augmented Generation Framework for EDA Tasks Leveraging Knowledge Graph",
+    "titleUrl": null,
+    "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+    "location": "San Jose, CA, USA, Nov. 8–12, 2026.",
+    "note": "",
+    "links": [],
+    "label": "C42",
+    "cvOrder": 2
+  },
+  {
+    "id": "pub-53",
+    "key": "chen2026sglayout",
+    "year": 2026,
+    "category": "conference",
+    "authors": [
+      "Siyang Chen",
+      "Yuan Pu",
+      "Yuhan Qin",
+      "Zhaotan Lin",
+      "Siyuan Liang",
+      "Zhuolun He",
+      "Lining Zhang",
+      "Bei Yu"
+    ],
+    "title": "SGLayout: Schema-Guided Closed-Loop Refinement for LLM-Driven Parameterized Layout Generation",
+    "titleUrl": null,
+    "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+    "location": "San Jose, CA, USA, Nov. 8–12, 2026.",
+    "note": "",
+    "links": [],
+    "label": "C41",
+    "cvOrder": 3
+  },
+  {
+    "id": "pub-52",
+    "key": "jiang2026fabgpt",
+    "year": 2026,
+    "category": "journal",
+    "authors": [
+      "Yuqi Jiang",
+      "Qian Jin",
+      "Xudong Lu",
+      "Xiangyue Lyu",
+      "Zhuolun He",
+      "Xunzhao Yin",
+      "Yali Fu",
+      "Dawei Gao",
+      "Bei Yu",
+      "Qi Sun",
+      "Hanming Wu",
+      "Cheng Zhuo"
+    ],
+    "title": "FabGPT: An Efficient Large Multimodal Model for Complex Wafer Defect Knowledge Queries",
+    "titleUrl": "https://doi.org/10.1109/TCAD.2026.3664304",
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+    "location": "2026.",
+    "note": "",
+    "links": [],
+    "label": "J13",
+    "cvOrder": 0
+  },
+  {
+    "id": "pub-51",
+    "key": "wang2026squant",
+    "year": 2026,
+    "category": "conference",
+    "authors": [
+      "Mingzi Wang",
+      "Lancheng Zou",
+      "Shuo Yin",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "S-Quant: Rethinking Weight Quantization with Seed-Based Generation",
+    "titleUrl": "https://icml.cc/virtual/2026/poster/65030",
+    "venue": "International Conference on Machine Learning (ICML)",
+    "location": "Seoul, South Korea, Jul. 6–11, 2026.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C358-ICML2026-S-Quant.pdf"
+      }
+    ],
+    "label": "C39",
+    "cvOrder": 5
+  },
+  {
+    "id": "pub-50",
+    "key": "chen2026maeda",
+    "year": 2026,
+    "category": "conference",
+    "authors": [
+      "Zhenghao Chen",
+      "Yuan Pu",
+      "Hairuo Han",
+      "Yuntao Nie",
+      "Jiajun Qin",
+      "Yuhan Qin",
+      "Tairu Qiu",
+      "Zhuolun He",
+      "Jianwang Zhai",
+      "Bei Yu",
+      "Kang Zhao"
+    ],
+    "title": "MAEDA: An LLM-Powered Multi-Agent Evaluation Framework for EDA Tool Documentation QA",
+    "titleUrl": "https://doi.org/10.23919/DATE69613.2026.11539506",
+    "venue": "IEEE/ACM Proceedings Design, Automation and Test in Europe (DATE)",
+    "location": "Verona, Italy, Apr. 20–22, 2026.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C322-DATE2026-MAEDA.pdf"
+      }
+    ],
+    "label": "C38",
+    "cvOrder": 6
+  },
+  {
+    "id": "pub-49",
+    "key": "qin2026infusing",
+    "year": 2026,
+    "category": "conference",
+    "authors": [
+      "Yuhan Qin",
+      "Yuan Pu",
+      "Tairu Qiu",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "Infusing EDA Knowledge into LLM Systems: An Information-Source Perspective",
+    "titleUrl": "https://doi.org/10.1145/3764386.3779640",
+    "venue": "ACM International Symposium on Physical Design (ISPD)",
+    "location": "Bonn, Germany, Mar. 15–18, 2026.",
+    "note": "Invited Paper",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C315-ISPD2026-MultiRAG.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C315-ISPD2026-MultiRAG-slides.pdf"
+      }
+    ],
+    "label": "C37",
+    "cvOrder": 7
+  },
+  {
+    "id": "pub-48",
+    "key": "zheng2026combrewriter",
+    "year": 2026,
+    "category": "conference",
+    "authors": [
+      "Haisheng Zheng",
+      "Zhuolun He",
+      "Shuo Yin",
+      "Yuzhe Ma",
+      "Bei Yu"
+    ],
+    "title": "CombRewriter: Enabling Combinational Logic Simplification in MLIR-Based Hardware Compiler",
+    "titleUrl": "https://doi.org/10.1109/ASP-DAC66049.2026.11420469",
+    "venue": "IEEE/ACM Asian and South Pacific Design Automation Conference (ASPDAC)",
+    "location": "Hong Kong, Jan. 19–22, 2026.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C305-ASPDAC2026-CombRewriter.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C305-ASPDAC2026-CombRewriter-slides.pdf"
+      }
+    ],
+    "label": "C36",
+    "cvOrder": 8
+  },
+  {
+    "id": "pub-47",
+    "key": "liu2025cbevo",
+    "year": 2026,
+    "category": "journal",
+    "authors": [
+      "Fangzhou Liu",
+      "Wuqian Tang",
+      "Zehua Pei",
+      "Ziyang Yu",
+      "Haisheng Zheng",
+      "Zhuolun He",
+      "Mengjia Dai",
+      "Tinghuan Chen",
+      "Bei Yu"
+    ],
+    "title": "CB-EVO: Contextual Bandit Tuning with Evolutionary Search for Logic Synthesis",
+    "titleUrl": "https://doi.org/10.1145/3779431",
+    "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES)",
+    "location": "2026.",
+    "note": "",
+    "links": [],
+    "label": "J12",
+    "cvOrder": 1
+  },
+  {
+    "id": "pub-39",
+    "key": "liu2025routing",
+    "year": 2026,
+    "category": "journal",
+    "authors": [
+      "Siting Liu",
+      "Jieya Zhou",
+      "Jiaxi Jiang",
+      "Zhuolun He",
+      "Ziyi Wang",
+      "Yibo Lin",
+      "Bei Yu",
+      "Martin Wong"
+    ],
+    "title": "Routing-aware Legal Hybrid Bonding Terminal Assignment for 3D Face-to-Face Stacked ICs",
+    "titleUrl": "https://doi.org/10.1145/3721131",
+    "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES)",
+    "location": "2026.",
+    "note": "",
+    "links": [],
+    "label": "J11",
+    "cvOrder": 2
+  },
+  {
+    "id": "liu2026synact",
+    "key": "liu2026synact",
+    "year": 2026,
+    "category": "preprint",
+    "authors": [
+      "Fangzhou Liu",
+      "Peiyi Han",
+      "Jiawei Liu",
+      "Yuan Pu",
+      "Zhuolun He",
+      "Rongliang Fu",
+      "Tsung-Yi Ho",
+      "Bei Yu"
+    ],
+    "title": "SynAct: A Reasoning-Acting Large Language Model Agent for Adaptive Synthesis Optimization",
+    "titleUrl": "https://arxiv.org/abs/2608.12751",
+    "venue": "arXiv:2608.12751",
+    "location": "2026.",
+    "note": "",
+    "links": [],
+    "label": "P4",
+    "cvOrder": 0
+  },
+  {
+    "id": "pub-46",
+    "key": "wu2025onpolicy",
+    "year": 2025,
+    "category": "conference",
+    "authors": [
+      "Haoyuan Wu",
+      "Rui Ming",
+      "Jilong Gao",
+      "Hangyu Zhao",
+      "Xueyi Chen",
+      "Yikai Yang",
+      "Haisheng Zheng",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "On-Policy Optimization with Group Equivalent Preference for Multi-Programming Language Understanding",
+    "titleUrl": "https://neurips.cc/virtual/2025/loc/san-diego/poster/119908",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
+    "location": "San Diego, CA, USA, Dec. 2–7, 2025.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C304-NeurIPS2025-OORL.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C304-NeurIPS2025-OORL-poster.pdf"
+      }
+    ],
+    "label": "C35",
+    "cvOrder": 9
+  },
+  {
+    "id": "pub-45",
+    "key": "pu2025gpu",
+    "year": 2025,
+    "category": "conference",
+    "authors": [
+      "Yuan Pu",
+      "Yuhao Ji",
+      "Siying Yu",
+      "Zuodong Zhang",
+      "Zizheng Guo",
+      "Zhuolun He",
+      "Yibo Lin",
+      "David Z. Pan",
+      "Bei Yu"
+    ],
+    "title": "GPU Acceleration for Versatile Buffer Insertion",
+    "titleUrl": "https://doi.org/10.1109/ICCAD66269.2025.11240837",
+    "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+    "location": "Munich, Germany, Oct. 26–30, 2025.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C293-ICCAD2025-BIGX.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C293-ICCAD2025-BIGX-slides.pdf"
+      }
+    ],
+    "label": "C34",
+    "cvOrder": 10
+  },
+  {
+    "id": "pub-44",
+    "key": "pu2025mmgrade",
+    "year": 2025,
+    "category": "conference",
+    "authors": [
+      "Yuan Pu",
+      "Zhuolun He",
+      "Shutong Lin",
+      "Jiajun Qin",
+      "Xinyun Zhang",
+      "Hairuo Han",
+      "Haisheng Zheng",
+      "Yuqi Jiang",
+      "Cheng Zhuo",
+      "Qi Sun",
+      "David Z. Pan",
+      "Bei Yu"
+    ],
+    "title": "MM-GRADE: A Multi-Modal EDA Tool Documentation QA Framework Leveraging Retrieval Augmented Generation",
+    "titleUrl": "https://doi.org/10.1109/ICCAD66269.2025.11240857",
+    "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+    "location": "Munich, Germany, Oct. 26–30, 2025.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C292-ICCAD2025-MM-GRADE.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C292-ICCAD2025-MM-GRADE-slides.pdf"
+      }
+    ],
+    "label": "C33",
+    "cvOrder": 11
+  },
+  {
+    "id": "pub-43",
+    "key": "wu2025efficient",
+    "year": 2025,
+    "category": "conference",
+    "authors": [
+      "Haoyuan Wu",
+      "Rui Ming",
+      "Haisheng Zheng",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "Efficient OpAmp Adaptation for Zoom Attention to Golden Contexts",
+    "titleUrl": "https://aclanthology.org/2025.acl-long.653/",
+    "venue": "Association for Computational Linguistics (ACL)",
+    "location": "Vienna, Austria, Jul. 27–Aug. 1, 2025.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C278-ACL2025-OpampAdapter.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C278-ACL2025-OpampAdapter-slides.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C278-ACL2025-OpampAdapter-poster.pdf"
+      }
+    ],
+    "label": "C32",
+    "cvOrder": 12
+  },
+  {
+    "id": "pub-42",
+    "key": "pu2025customized",
+    "year": 2025,
+    "category": "journal",
+    "authors": [
+      "Yuan Pu",
+      "Zhuolun He",
+      "Yuqi Jiang",
+      "Tairu Qiu",
+      "Haoyuan Wu",
+      "Qi Sun",
+      "Cheng Zhuo",
+      "Bei Yu"
+    ],
+    "title": "Customized Retrieval Augmented Generation and Benchmarking for EDA Tool Documentation QA",
+    "titleUrl": "https://doi.org/10.1109/TCAD.2025.3568776",
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+    "location": "2025.",
+    "note": "",
+    "links": [],
+    "label": "J10",
+    "cvOrder": 3
+  },
+  {
+    "id": "pub-41",
+    "key": "he2025mirage",
+    "year": 2025,
+    "category": "journal",
+    "authors": [
+      "Zhuolun He",
+      "Yuan Pu",
+      "Haoyuan Wu",
+      "Tairu Qiu",
+      "Bei Yu"
+    ],
+    "title": "Large Language Models for EDA: Future or Mirage?",
+    "titleUrl": "https://doi.org/10.1145/3736167",
+    "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES)",
+    "location": "2025.",
+    "note": "Editor's Pick",
+    "links": [],
+    "label": "J9",
+    "cvOrder": 4
+  },
+  {
+    "id": "pub-40",
+    "key": "xu2025easymrc",
+    "year": 2025,
+    "category": "journal",
+    "authors": [
+      "Jiahao Xu",
+      "Zhuolun He",
+      "Shuo Yin",
+      "Yuan Pu",
+      "Wenjian Yu",
+      "Bei Yu"
+    ],
+    "title": "EasyMRC: Efficient Mask Rule Checking via Representative Edge Sampling",
+    "titleUrl": "https://doi.org/10.1145/3723044",
+    "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES)",
+    "location": "2025.",
+    "note": "",
+    "links": [],
+    "label": "J8",
+    "cvOrder": 5
+  },
+  {
+    "id": "pub-38",
+    "key": "zheng2025chatls",
+    "year": 2025,
+    "category": "conference",
+    "authors": [
+      "Haisheng Zheng",
+      "Haoyuan Wu",
+      "Zhuolun He"
+    ],
+    "title": "ChatLS: Multimodal Retrieval-Augmented Generation and Chain-of-Thought for Logic Synthesis Script Customization",
+    "titleUrl": "https://doi.org/10.1109/DAC63849.2025.11132969",
+    "venue": "ACM/IEEE Design Automation Conference (DAC)",
+    "location": "San Francisco, CA, USA, Jun. 22–25, 2025.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://leozheng.tech/papers/C13-DAC'25-ChatLS.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://leozheng.tech/papers/C13-DAC'25-ChatLS-slides.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "https://leozheng.tech/papers/C13-DAC'25-ChatLS-poster.pdf"
+      }
+    ],
+    "label": "C31",
+    "cvOrder": 13
+  },
+  {
+    "id": "pub-37",
+    "key": "liu2025swift",
+    "year": 2025,
+    "category": "conference",
+    "authors": [
+      "Hang Liu",
+      "Hao Geng",
+      "Zhuolun He",
+      "Qi Sun",
+      "Cheng Zhuo"
+    ],
+    "title": "Swift or Exact? Boosting Efficient Microarchitecture DSE via Multi-fidelity Partial Order Prediction",
+    "titleUrl": "https://doi.org/10.1109/DAC63849.2025.11133073",
+    "venue": "ACM/IEEE Design Automation Conference (DAC)",
+    "location": "San Francisco, CA, USA, Jun. 22–25, 2025.",
+    "note": "",
+    "links": [],
+    "label": "C30",
+    "cvOrder": 14
+  },
+  {
+    "id": "pub-36",
+    "key": "wu2025divergent",
+    "year": 2025,
+    "category": "conference",
+    "authors": [
+      "Haoyuan Wu",
+      "Haisheng Zheng",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "Divergent Thoughts toward One Goal: LLM-based Multi-Agent Collaboration System for Electronic Design Automation",
+    "titleUrl": "https://aclanthology.org/2025.naacl-long.83/",
+    "venue": "Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL)",
+    "location": "Albuquerque, NM, USA, Apr. 29–May 2, 2025.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C262-NAACL2025-EDAid.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C262-NAACL2025-EDAid-poster.pdf"
+      }
+    ],
+    "label": "C29",
+    "cvOrder": 15
+  },
+  {
+    "id": "pub-35",
+    "key": "pu2025incremacro",
+    "year": 2025,
+    "category": "journal",
+    "authors": [
+      "Yuan Pu",
+      "Tinghuan Chen",
+      "Zhuolun He",
+      "Jiajun Qin",
+      "Chen Bai",
+      "Haisheng Zheng",
+      "Yibo Lin",
+      "Bei Yu"
+    ],
+    "title": "IncreMacro: Incremental Macro Placement Refinement",
+    "titleUrl": "https://ieeexplore.ieee.org/document/10845818/",
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+    "location": "2025.",
+    "note": "",
+    "links": [],
+    "label": "J7",
+    "cvOrder": 6
+  },
+  {
+    "id": "pub-34",
+    "key": "he2025assistants",
+    "year": 2025,
+    "category": "journal",
+    "authors": [
+      "Zhuolun He",
+      "Yuan Pu",
+      "Haoyuan Wu",
+      "Yuhan Qin",
+      "Tairu Qiu",
+      "Bei Yu"
+    ],
+    "title": "Large Language Models for EDA: From Assistants to Agents",
+    "titleUrl": "https://www.nowpublishers.com/article/Details/EDA-063-2",
+    "venue": "Foundations and Trends in Electronic Design Automation",
+    "location": "2025.",
+    "note": "",
+    "links": [],
+    "label": "J6",
+    "cvOrder": 7
+  },
+  {
+    "id": "pub-33",
+    "key": "zheng2025irw",
+    "year": 2025,
+    "category": "conference",
+    "authors": [
+      "Haisheng Zheng",
+      "Haoyuan Wu",
+      "Zhuolun He",
+      "Yuzhe Ma",
+      "Bei Yu"
+    ],
+    "title": "iRw: An Intelligent Rewriting",
+    "titleUrl": "https://doi.org/10.23919/DATE64628.2025.10993244",
+    "venue": "IEEE/ACM Proceedings Design, Automation and Test in Europe (DATE)",
+    "location": "Lyon, France, Mar. 31–Apr. 2, 2025.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C259-DATE2025-iRw.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C259-DATE2025-iRw-slides.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C259-DATE2025-iRw-poster.pdf"
+      }
+    ],
+    "label": "C28",
+    "cvOrder": 16
+  },
+  {
+    "id": "pub-32",
+    "key": "pu2025helo",
+    "year": 2025,
+    "category": "conference",
+    "authors": [
+      "Yuan Pu",
+      "Fangzhou Liu",
+      "Zhuolun He",
+      "Keren Zhu",
+      "Rongliang Fu",
+      "Ziyi Wang",
+      "Tsung-Yi Ho",
+      "Bei Yu"
+    ],
+    "title": "HeLO: A Heterogeneous Logic Optimization Framework by Hierarchical Clustering and Graph Learning",
+    "titleUrl": "https://doi.org/10.1145/3698364.3705354",
+    "venue": "ACM International Symposium on Physical Design (ISPD)",
+    "location": "Austin, TX, USA, Mar. 16–19, 2025.",
+    "note": "Best Paper Award Nomination",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C254-ISPD2025-HeLO.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C254-ISPD2025-HeLO-slides.pdf"
+      }
+    ],
+    "label": "C27",
+    "cvOrder": 17
+  },
+  {
+    "id": "pub-31",
+    "key": "wang2025fgnn2",
+    "year": 2025,
+    "category": "journal",
+    "authors": [
+      "Ziyi Wang",
+      "Chen Bai",
+      "Zhuolun He",
+      "Guangliang Zhang",
+      "Qiang Xu",
+      "Tsung-Yi Ho",
+      "Yu Huang",
+      "Bei Yu"
+    ],
+    "title": "FGNN2: A Powerful Pre-training Framework for Learning the Logic Functionality of Circuits",
+    "titleUrl": "https://ieeexplore.ieee.org/document/10609964",
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+    "location": "2025.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/J119-TCAD2025-FGNN2.pdf"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/ZeayW/FGNN2"
+      }
+    ],
+    "label": "J5",
+    "cvOrder": 8
+  },
+  {
+    "id": "wu2025totrl",
+    "key": "wu2025totrl",
+    "year": 2025,
+    "category": "preprint",
+    "authors": [
+      "Haoyuan Wu",
+      "Xueyi Chen",
+      "Rui Ming",
+      "Jilong Gao",
+      "Shoubo Hu",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "ToTRL: Unlock LLM Tree-of-Thoughts Reasoning Potential through Puzzles Solving",
+    "titleUrl": "https://arxiv.org/abs/2505.12717",
+    "venue": "arXiv:2505.12717",
+    "location": "2025.",
+    "note": "",
+    "links": [],
+    "label": "P3",
+    "cvOrder": 1
+  },
+  {
+    "id": "qin2025unimoco",
+    "key": "qin2025unimoco",
+    "year": 2025,
+    "category": "preprint",
+    "authors": [
+      "Jiajun Qin",
+      "Yuan Pu",
+      "Zhuolun He",
+      "Seunggeun Kim",
+      "David Z. Pan",
+      "Bei Yu"
+    ],
+    "title": "UniMoCo: Unified Modality Completion for Robust Multi-Modal Embeddings",
+    "titleUrl": "https://arxiv.org/abs/2505.11815",
+    "venue": "arXiv:2505.11815",
+    "location": "2025.",
+    "note": "",
+    "links": [],
+    "label": "P2",
+    "cvOrder": 2
+  },
+  {
+    "id": "wu2025architect",
+    "key": "wu2025architect",
+    "year": 2025,
+    "category": "preprint",
+    "authors": [
+      "Haoyuan Wu",
+      "Haisheng Zheng",
+      "Shoubo Hu",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "Architect of the Bits World: Masked Autoregressive Modeling for Circuit Generation Guided by Truth Table",
+    "titleUrl": "https://arxiv.org/abs/2502.12751",
+    "venue": "arXiv:2502.12751",
+    "location": "2025.",
+    "note": "",
+    "links": [],
+    "label": "P1",
+    "cvOrder": 3
+  },
+  {
+    "id": "pub-30",
+    "key": "wu2024parameter",
+    "year": 2024,
+    "category": "conference",
+    "authors": [
+      "Haoyuan Wu",
+      "Haisheng Zheng",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "Parameter-Efficient Sparsity Crafting from Dense to Mixture-of-Experts for Instruction Tuning on General Tasks",
+    "titleUrl": "https://aclanthology.org/2024.emnlp-main.43/",
+    "venue": "Empirical Methods in Natural Language Processing (EMNLP)",
+    "location": "Miami, FL, USA, Dec. 12–16, 2024.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C244-EMNLP2024-SparseCraft.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C244-EMNLP2024-SparseCraft-slides.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C244-EMNLP2024-SparseCraft-poster.pdf"
+      }
+    ],
+    "label": "C26",
+    "cvOrder": 18
+  },
+  {
+    "id": "pub-29",
+    "key": "pu2024customized",
+    "year": 2024,
+    "category": "conference",
+    "authors": [
+      "Yuan Pu",
+      "Zhuolun He",
+      "Tairu Qiu",
+      "Haoyuan Wu",
+      "Bei Yu"
+    ],
+    "title": "Customized Retrieval Augmented Generation and Benchmarking for EDA Tool Documentation QA",
+    "titleUrl": "https://doi.org/10.1145/3676536.3676730",
+    "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+    "location": "Newark, NJ, USA, Oct. 27–31, 2024.",
+    "note": "Best Paper Award Nomination",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C236-ICCAD2024-CragEDA.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C236-ICCAD2024-CragEDA-slides.pdf"
+      }
+    ],
+    "label": "C25",
+    "cvOrder": 19
+  },
+  {
+    "id": "pub-28",
+    "key": "wu2024chateda",
+    "year": 2024,
+    "category": "journal",
+    "authors": [
+      "Haoyuan Wu",
+      "Zhuolun He",
+      "Xinyun Zhang",
+      "Xufeng Yao",
+      "Su Zheng",
+      "Haisheng Zheng",
+      "Bei Yu"
+    ],
+    "title": "ChatEDA: A Large Language Model Powered Autonomous Agent for EDA",
+    "titleUrl": "https://doi.org/10.1109/TCAD.2024.3383347",
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+    "location": "2024.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/J115-TCAD2024-ChatEDA.pdf"
+      }
+    ],
+    "label": "J4",
+    "cvOrder": 9
+  },
+  {
+    "id": "pub-27",
+    "key": "pu2024lesyn",
+    "year": 2024,
+    "category": "conference",
+    "authors": [
+      "Yuan Pu",
+      "Fangzhou Liu",
+      "Yu Zhang",
+      "Zhuolun He",
+      "Kai-Yuan Chao",
+      "Yibo Lin",
+      "Bei Yu"
+    ],
+    "title": "Lesyn: Placement-aware Logic Resynthesis for Non-Integer Multiple-Cell-Height Designs",
+    "titleUrl": "https://dl.acm.org/doi/10.1145/3649329.3656243",
+    "venue": "ACM/IEEE Design Automation Conference (DAC)",
+    "location": "San Francisco, CA, USA, Jun. 23–27, 2024.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C220-DAC2024-Lesyn.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C220-DAC2024-Lesyn-slides.pdf"
+      }
+    ],
+    "label": "C24",
+    "cvOrder": 20
+  },
+  {
+    "id": "pub-26",
+    "key": "jiang2024pdrc",
+    "year": 2024,
+    "category": "conference",
+    "authors": [
+      "Jiaxi Jiang",
+      "Lancheng Zou",
+      "Wenqian Zhao",
+      "Zhuolun He",
+      "Tinghuan Chen",
+      "Bei Yu"
+    ],
+    "title": "PDRC: Package Design Rule Checking via GPU-Accelerated Geometric Intersection Algorithms for Non-Manhattan Geometry",
+    "titleUrl": "https://dl.acm.org/doi/10.1145/3649329.3657367",
+    "venue": "ACM/IEEE Design Automation Conference (DAC)",
+    "location": "San Francisco, CA, USA, Jun. 23–27, 2024.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C219-DAC2024-PDRC.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C219-DAC2024-PDRC-slides.pdf"
+      }
+    ],
+    "label": "C23",
+    "cvOrder": 21
+  },
+  {
+    "id": "pub-25",
+    "key": "liu2024cbtune",
+    "year": 2024,
+    "category": "conference",
+    "authors": [
+      "Fangzhou Liu",
+      "Zehua Pei",
+      "Ziyang Yu",
+      "Haisheng Zheng",
+      "Zhuolun He",
+      "Tinghuan Chen",
+      "Bei Yu"
+    ],
+    "title": "CBTune: Contextual Bandit Tuning for Logic Synthesis",
+    "titleUrl": "https://ieeexplore.ieee.org/document/10546766",
+    "venue": "IEEE/ACM Design, Automation and Test in Europe Conference (DATE)",
+    "location": "Valencia, Spain, Mar. 25–27, 2024.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C208-DATE2024-CBTune.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C208-DATE2024-CBTune-slides.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C208-DATE2024-CBTune-poster.pdf"
+      }
+    ],
+    "label": "C22",
+    "cvOrder": 22
+  },
+  {
+    "id": "pub-24",
+    "key": "he2024large",
+    "year": 2024,
+    "category": "conference",
+    "authors": [
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "Large Language Models for EDA: Future or Mirage?",
+    "titleUrl": "https://doi.org/10.1145/3626184.3639700",
+    "venue": "ACM International Symposium on Physical Design (ISPD)",
+    "location": "Taipei, Mar. 12–15, 2024.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C206-ISPD2024-LLM-EDA.pdf"
+      }
+    ],
+    "label": "C21",
+    "cvOrder": 23
+  },
+  {
+    "id": "pub-23",
+    "key": "pu2024incremacro",
+    "year": 2024,
+    "category": "conference",
+    "authors": [
+      "Yuan Pu",
+      "Tinghuan Chen",
+      "Zhuolun He",
+      "Chen Bai",
+      "Haisheng Zheng",
+      "Yibo Lin",
+      "Bei Yu"
+    ],
+    "title": "IncreMacro: Incremental Macro Placement Refinement",
+    "titleUrl": "https://doi.org/10.1145/3626184.3633321",
+    "venue": "ACM International Symposium on Physical Design (ISPD)",
+    "location": "Taipei, Mar. 12–15, 2024.",
+    "note": "Best Paper Award Nomination",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C205-ISPD2024-IncreMacro.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C205-ISPD2024-IncreMacro-slides.pdf"
+      }
+    ],
+    "label": "C20",
+    "cvOrder": 24
+  },
+  {
+    "id": "pub-22",
+    "key": "liu2024routing",
+    "year": 2024,
+    "category": "conference",
+    "authors": [
+      "Siting Liu",
+      "Jiaxi Jiang",
+      "Zhuolun He",
+      "Ziyi Wang",
+      "Yibo Lin",
+      "Bei Yu"
+    ],
+    "title": "Routing-aware Legal Hybrid Bonding Terminal Assignment for 3D Face-to-Face Stacked ICs",
+    "titleUrl": "https://doi.org/10.1145/3626184.3633322",
+    "venue": "ACM International Symposium on Physical Design (ISPD)",
+    "location": "Taipei, Mar. 12–15, 2024.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C202-ISPD2024-BTAssign.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C202-ISPD2024-BTAssign-slides.pdf"
+      }
+    ],
+    "label": "C19",
+    "cvOrder": 25
+  },
+  {
+    "id": "pub-21",
+    "key": "zheng2023lstp",
+    "year": 2024,
+    "category": "conference",
+    "authors": [
+      "Haisheng Zheng",
+      "Zhuolun He",
+      "Fangzhou Liu",
+      "Zehua Pei",
+      "Bei Yu"
+    ],
+    "title": "LSTP: A Logic Synthesis Timing Predictor",
+    "titleUrl": "https://doi.org/10.1109/ASP-DAC58780.2024.10473925",
+    "venue": "IEEE/ACM Asian and South Pacific Design Automation Conference (ASPDAC)",
+    "location": "Incheon, South Korea, Jan. 22–25, 2024.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C192-ASPDAC2024-LSTP.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C192-ASPDAC2024-LSTP-slides.pdf"
+      }
+    ],
+    "label": "C18",
+    "cvOrder": 26
+  },
+  {
+    "id": "pub-20",
+    "key": "he2023heterogeneous",
+    "year": 2023,
+    "category": "conference",
+    "authors": [
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "Heterogenous Acceleration for Design Rule Checking",
+    "titleUrl": "https://doi.org/10.1109/ICCAD57390.2023.10323957",
+    "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+    "location": "San Francisco, CA, USA, Oct. 29–Nov. 2, 2023.",
+    "note": "Invited Paper",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C188-ICCAD2023-HeteroDRC.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C188-ICCAD2023-HeteroDRC-slides.pdf"
+      }
+    ],
+    "label": "C17",
+    "cvOrder": 27
+  },
+  {
+    "id": "pub-19",
+    "key": "pei2023alphasyn",
+    "year": 2023,
+    "category": "conference",
+    "authors": [
+      "Zehua Pei",
+      "Fangzhou Liu",
+      "Zhuolun He",
+      "Guojin Chen",
+      "Haisheng Zheng",
+      "Keren Zhu",
+      "Bei Yu"
+    ],
+    "title": "AlphaSyn: Logic Synthesis Optimization with Efficient Monte Carlo Tree Search",
+    "titleUrl": "https://doi.org/10.1109/ICCAD57390.2023.10323856",
+    "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+    "location": "San Francisco, CA, USA, Oct. 29–Nov. 2, 2023.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn-slides.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C184-ICCAD2023-AlphaSyn-poster.pdf"
+      }
+    ],
+    "label": "C16",
+    "cvOrder": 28
+  },
+  {
+    "id": "pub-18",
+    "key": "he2023chateda",
+    "year": 2023,
+    "category": "conference",
+    "authors": [
+      "Zhuolun He",
+      "Haoyuan Wu",
+      "Xinyun Zhang",
+      "Xufeng Yao",
+      "Su Zheng",
+      "Haisheng Zheng",
+      "Bei Yu"
+    ],
+    "title": "ChatEDA: A Large Language Model Powered Autonomous Agent for EDA",
+    "titleUrl": "https://doi.org/10.1109/MLCAD58807.2023.10299852",
+    "venue": "ACM/IEEE Workshop on Machine Learning for CAD (MLCAD)",
+    "location": "Snowbird, UT, USA, Sept. 11–13, 2023.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C177-MLCAD2023-ChatEDA.pdf"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2308.10204"
+      }
+    ],
+    "label": "C15",
+    "cvOrder": 29
+  },
+  {
+    "id": "pub-17",
+    "key": "he2023opendrc",
+    "year": 2023,
+    "category": "conference",
+    "authors": [
+      "Zhuolun He",
+      "Yihang Zuo",
+      "Jiaxi Jiang",
+      "Haisheng Zheng",
+      "Yuzhe Ma",
+      "Bei Yu"
+    ],
+    "title": "OpenDRC: An Efficient Open-Source Design Rule Checking Engine with Hierarchical GPU Acceleration",
+    "titleUrl": "https://doi.org/10.1109/DAC56929.2023.10247734",
+    "venue": "ACM/IEEE Design Automation Conference (DAC)",
+    "location": "San Francisco, CA, USA, Jul. 9–13, 2023.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C172-DAC2023-OpenDRC.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C172-DAC2023-OpenDRC-slides.pdf"
+      }
+    ],
+    "label": "C14",
+    "cvOrder": 30
+  },
+  {
+    "id": "pub-16",
+    "key": "pei2023bit",
+    "year": 2023,
+    "category": "conference",
+    "authors": [
+      "Zehua Pei",
+      "Wenqian Zhao",
+      "Zhuolun He",
+      "Bei Yu"
+    ],
+    "title": "Bit-Level Quantization for Efficient Layout Hotspot Detection",
+    "titleUrl": "https://ieeexplore.ieee.org/document/10218502/",
+    "venue": "International Symposium of Electronics Design Automation (ISEDA)",
+    "location": "Nanjing, China, May 9–11, 2023.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C161-ISEDA2023-QuanHSD.pdf"
+      }
+    ],
+    "label": "C13",
+    "cvOrder": 31
+  },
+  {
+    "id": "pub-15",
+    "key": "shi2023efficient",
+    "year": 2023,
+    "category": "journal",
+    "authors": [
+      "Bizhao Shi",
+      "Jiaxi Zhang",
+      "Zhuolun He",
+      "Xuechao Wei",
+      "Sicheng Li",
+      "Guojie Luo",
+      "Hongzhong Zheng",
+      "Yuan Xie"
+    ],
+    "title": "Efficient Super-Resolution System with Block-wise Hybridization and Quantized Winograd on FPGA",
+    "titleUrl": "https://ieeexplore.ieee.org/document/10049639",
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+    "location": "2023.",
+    "note": "",
+    "links": [],
+    "label": "J3",
+    "cvOrder": 10
+  },
+  {
+    "id": "pub-14",
+    "key": "wang2022efficient",
+    "year": 2023,
+    "category": "journal",
+    "authors": [
+      "Ziyi Wang",
+      "Zhuolun He",
+      "Chen Bai",
+      "Haoyu Yang",
+      "Bei Yu"
+    ],
+    "title": "Efficient Arithmetic Block Identification with Graph Learning and Network-flow",
+    "titleUrl": "https://ieeexplore.ieee.org/document/9975800",
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+    "location": "2023.",
+    "note": "",
+    "links": [],
+    "label": "J2",
+    "cvOrder": 11
+  },
+  {
+    "id": "pub-13",
+    "key": "zhong2023enabling",
+    "year": 2023,
+    "category": "conference",
+    "authors": [
+      "Wei Zhong",
+      "Zhenhua Feng",
+      "Zhuolun He",
+      "Weimin Wang",
+      "Yuzhe Ma",
+      "Bei Yu"
+    ],
+    "title": "Enabling Efficient Design Rule Checking with GPU Acceleration",
+    "titleUrl": "https://doi.org/10.23919/DATE56975.2023.10137135",
+    "venue": "IEEE/ACM Proceedings Design, Automation and Test in Europe (DATE)",
+    "location": "Antwerp, Belgium, Apr. 17–19, 2023.",
+    "note": "extended abstract",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C158-DATE2023-DRC-GPU.pdf"
+      }
+    ],
+    "label": "C12",
+    "cvOrder": 32
+  },
+  {
+    "id": "pub-12",
+    "key": "zhao2023autograph",
+    "year": 2023,
+    "category": "conference",
+    "authors": [
+      "Yuxuan Zhao",
+      "Qi Sun",
+      "Zhuolun He",
+      "Yang Bai",
+      "Bei Yu"
+    ],
+    "title": "AutoGraph: Optimizing DNN Computation Graph for Parallel GPU Kernel Execution",
+    "titleUrl": "https://doi.org/10.1609/aaai.v37i9.26343",
+    "venue": "AAAI Conference on Artificial Intelligence (AAAI)",
+    "location": "Washington, DC, USA, Feb. 7–14, 2023.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C155-AAAI2023-AutoGraph.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C155-AAAI2023-AutoGraph-slides.pdf"
+      }
+    ],
+    "label": "C11",
+    "cvOrder": 33
+  },
+  {
+    "id": "pub-11",
+    "key": "he2022xcheck",
+    "year": 2022,
+    "category": "conference",
+    "authors": [
+      "Zhuolun He",
+      "Yuzhe Ma",
+      "Bei Yu"
+    ],
+    "title": "X-Check: GPU-Accelerated Design Rule Checking via Parallel Sweepline Algorithms",
+    "titleUrl": "https://dl.acm.org/doi/10.1145/3508352.3549383",
+    "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+    "location": "San Diego, CA, USA, Oct. 30–Nov. 3, 2022.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C149-ICCAD2022-GPU-DRC.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C149-ICCAD2022-GPU-DRC-slides.pdf"
+      }
+    ],
+    "label": "C10",
+    "cvOrder": 34
+  },
+  {
+    "id": "pub-10",
+    "key": "wang2022functionality",
+    "year": 2022,
+    "category": "conference",
+    "authors": [
+      "Ziyi Wang",
+      "Chen Bai",
+      "Zhuolun He",
+      "Guangliang Zhang",
+      "Qiang Xu",
+      "Tsung-Yi Ho",
+      "Bei Yu",
+      "Yu Huang"
+    ],
+    "title": "Functionality Matters in Netlist Representation Learning",
+    "titleUrl": "https://dl.acm.org/doi/10.1145/3489517.3530410",
+    "venue": "ACM/IEEE Design Automation Conference (DAC)",
+    "location": "San Francisco, CA, USA, Jul. 10–14, 2022.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C142-DAC2022-GCL.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C142-DAC2022-GCL-slides.pdf"
+      }
+    ],
+    "label": "C9",
+    "cvOrder": 35
+  },
+  {
+    "id": "pub-9",
+    "key": "he2021graph",
+    "year": 2021,
+    "category": "conference",
+    "authors": [
+      "Zhuolun He",
+      "Ziyi Wang",
+      "Chen Bai",
+      "Haoyu Yang",
+      "Bei Yu"
+    ],
+    "title": "Graph Learning-Based Arithmetic Block Identification",
+    "titleUrl": "https://ieeexplore.ieee.org/document/9643581",
+    "venue": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+    "location": "Munich, Germany, Nov. 1–4, 2021.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C123-ICCAD2021-ReveGCN.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C123-ICCAD2021-ReveGCN-slides.pdf"
+      }
+    ],
+    "label": "C8",
+    "cvOrder": 36
+  },
+  {
+    "id": "pub-8",
+    "key": "he2021physical",
+    "year": 2021,
+    "category": "conference",
+    "authors": [
+      "Zhuolun He",
+      "Peiyu Liao",
+      "Siting Liu",
+      "Yuzhe Ma",
+      "Bei Yu"
+    ],
+    "title": "Physical Synthesis for Advanced Neural Network Processors",
+    "titleUrl": "https://dl.acm.org/doi/10.1145/3394885.3431625",
+    "venue": "IEEE/ACM Asian and South Pacific Design Automation Conference (ASPDAC)",
+    "location": "Tokyo, Japan, Jan. 18–21, 2021.",
+    "note": "Invited Paper",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C110-ASPDAC2021-CUPID.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C110-ASPDAC2021-CUPID-slides.pdf"
+      }
+    ],
+    "label": "C7",
+    "cvOrder": 37
+  },
+  {
+    "id": "pub-7",
+    "key": "he2020reinforcement",
+    "year": 2020,
+    "category": "conference",
+    "authors": [
+      "Zhuolun He",
+      "Lu Zhang",
+      "Peiyu Liao",
+      "Yuzhe Ma",
+      "Bei Yu"
+    ],
+    "title": "Reinforcement Learning Driven Physical Synthesis",
+    "titleUrl": "https://ieeexplore.ieee.org/document/9278350/",
+    "venue": "IEEE International Conference on Solid-State and Integrated Circuit Technology (ICSICT)",
+    "location": "Kunming, China, Nov. 3–6, 2020.",
+    "note": "Invited Paper",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C102-ICSICT2020-RL.pdf"
+      }
+    ],
+    "label": "C6",
+    "cvOrder": 38
+  },
+  {
+    "id": "pub-6",
+    "key": "lin2020hotcake",
+    "year": 2020,
+    "category": "conference",
+    "authors": [
+      "Rui Lin",
+      "Ching-Yun Ko",
+      "Zhuolun He",
+      "Cong Chen",
+      "Yuan Cheng",
+      "Hao Yu",
+      "Graziano Chesi",
+      "Ngai Wong"
+    ],
+    "title": "Hotcake: Higher order tucker articulated kernels for deeper CNN compression",
+    "titleUrl": "https://ieeexplore.ieee.org/document/9278257",
+    "venue": "IEEE International Conference on Solid-State and Integrated Circuit Technology (ICSICT)",
+    "location": "Kunming, China, Nov. 3–6, 2020.",
+    "note": "Invited Paper",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/pdf/2002.12663.pdf"
+      }
+    ],
+    "label": "C5",
+    "cvOrder": 39
+  },
+  {
+    "id": "pub-5",
+    "key": "he2020learn",
+    "year": 2020,
+    "category": "conference",
+    "authors": [
+      "Zhuolun He",
+      "Yuzhe Ma",
+      "Lu Zhang",
+      "Peiyu Liao",
+      "Ngai Wong",
+      "Bei Yu",
+      "Martin D.F. Wong"
+    ],
+    "title": "Learn to Floorplan through Acquisition of Effective Local Search Heuristics",
+    "titleUrl": "https://ieeexplore.ieee.org/document/9283518/",
+    "venue": "IEEE International Conference on Computer Design (ICCD)",
+    "location": "Hartford, CT, USA, Oct. 18–21, 2020.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C101-ICCD2020-RLF.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C101-ICCD2020-RLF-slides.pdf"
+      }
+    ],
+    "label": "C4",
+    "cvOrder": 40
+  },
+  {
+    "id": "pub-4",
+    "key": "ma2020understand",
+    "year": 2020,
+    "category": "conference",
+    "authors": [
+      "Yuzhe Ma",
+      "Zhuolun He",
+      "Wei Li",
+      "Tinghuan Chen",
+      "Lu Zhang",
+      "Bei Yu"
+    ],
+    "title": "Understanding Graphs in EDA: From Shallow to Deep Learning",
+    "titleUrl": "https://dl.acm.org/doi/10.1145/3372780.3378173",
+    "venue": "ACM International Symposium on Physical Design (ISPD)",
+    "location": "Taipei, Mar. 25–Apr. 1, 2020.",
+    "note": "Invited Paper",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C94-ISPD2020-GCN.pdf"
+      }
+    ],
+    "label": "C3",
+    "cvOrder": 41
+  },
+  {
+    "id": "pub-3",
+    "key": "ko2019deep",
+    "year": 2019,
+    "category": "journal",
+    "authors": [
+      "Ching-Yun Ko",
+      "Cong Chen",
+      "Zhuolun He",
+      "Yuke Zhang",
+      "Kim Batselier",
+      "Ngai Wong"
+    ],
+    "title": "Deep Model Compression and Inference Speedup of Sum-Product Networks on Tensor Trains",
+    "titleUrl": "https://ieeexplore.ieee.org/document/8793233",
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)",
+    "location": "2019.",
+    "note": "",
+    "links": [],
+    "label": "J1",
+    "cvOrder": 12
+  },
+  {
+    "id": "pub-2",
+    "key": "he2018fpga",
+    "year": 2018,
+    "category": "conference",
+    "authors": [
+      "Zhuolun He",
+      "Hanxian Huang",
+      "Ming Jiang",
+      "Yuanchao Bai",
+      "Guojie Luo"
+    ],
+    "title": "FPGA-based Real-time Super-resolution System for Ultra High Definition Videos",
+    "titleUrl": "https://ieeexplore.ieee.org/document/8457651",
+    "venue": "IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM)",
+    "location": "Boulder, CO, USA, Apr. 29–May 1, 2018.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ceca.pku.edu.cn/docs/20181030012447954751.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "/pdf/he2018fpga_based-slides.pdf"
+      }
+    ],
+    "label": "C2",
+    "cvOrder": 42
+  },
+  {
+    "id": "pub-1",
+    "key": "he2017fpga",
+    "year": 2017,
+    "category": "conference",
+    "authors": [
+      "Zhuolun He",
+      "Guojie Luo"
+    ],
+    "title": "FPGA Acceleration for Computational Glass-Free Displays",
+    "titleUrl": "https://dl.acm.org/citation.cfm?id=3021728",
+    "venue": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)",
+    "location": "Monterey, CA, USA, Feb. 22–24, 2017.",
+    "note": "",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ceca.pku.edu.cn/media/lw/d20df1d6acea24bd284908b631c0f99b.pdf"
+      },
+      {
+        "label": "Slides",
+        "url": "/pdf/he2017fpga-slides.pdf"
+      }
+    ],
+    "label": "C1",
+    "cvOrder": 43
+  }
+]

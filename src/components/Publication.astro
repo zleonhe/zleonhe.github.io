@@ -1,0 +1,23 @@
+---
+import { localUrl } from '../lib/urls';
+interface Props {
+  publication: {
+    id: string;
+    label: string;
+    title: string;
+    titleUrl: string | null;
+    authors: string[];
+    venue: string;
+    location: string;
+    note: string;
+    links: { label: string; url: string }[];
+  };
+}
+const { publication: pub } = Astro.props;
+---
+<article class="publication" id={pub.id}>
+  <h3><span class="publication-label">[{pub.label}]</span> {pub.titleUrl ? <a target={pub.titleUrl.startsWith('https://') ? '_blank' : undefined} rel={pub.titleUrl.startsWith('https://') ? 'noopener noreferrer' : undefined} href={localUrl(pub.titleUrl)}>{pub.title}</a> : pub.title}</h3>
+  <p class="authors">{pub.authors.map((name, i) => <>{i > 0 && (i === pub.authors.length - 1 ? (i === 1 ? ' and ' : ', and ') : ', ')}{name === 'Zhuolun He' ? <strong>{name}</strong> : name}</>)}.</p>
+  <p><cite>{pub.venue}</cite>, {pub.location} {pub.note && <strong class="note">{pub.note}</strong>}</p>
+  {pub.links.length > 0 && <p class="paper-links">{pub.links.map(link => <a target={link.url.startsWith('https://') ? '_blank' : undefined} rel={link.url.startsWith('https://') ? 'noopener noreferrer' : undefined} href={localUrl(link.url)}>[{link.label}]</a>)}</p>}
+</article>
