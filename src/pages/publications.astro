@@ -10,10 +10,6 @@ const preprints = publications.filter(pub => pub.category === 'preprint')
 ---
 <Layout title="Publications | Zhuolun (Leon) He">
   <h1>Publications</h1>
-  <nav class="publication-categories" aria-label="Publication years">
-    {years.map(year => <a href={`#year-${year}`}>{year}</a>)}
-    {preprints.length > 0 && <a href="#preprints">Preprints</a>}
-  </nav>
   {years.map(year => (
     <section id={`year-${year}`} aria-labelledby={`heading-${year}`}>
       <h2 id={`heading-${year}`}>{year}</h2>

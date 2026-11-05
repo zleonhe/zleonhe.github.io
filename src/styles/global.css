@@ -30,9 +30,9 @@ section[id], article[id], main { scroll-margin-top: 72px; }
 .profile { display: flex; align-items: center; gap: 28px; margin-bottom: 24px; }
 .profile h1 { margin-bottom: 8px; }
 .profile-affiliation { font-size: 14px; line-height: 1.4; margin-bottom: 8px; }
-.portrait { width: 150px; height: 180px; object-fit: cover; border-radius: 2px; }
+.portrait { flex: none; width: 150px; height: 180px; overflow: hidden; border-radius: 2px; }
+.portrait img { display: block; width: 100%; height: 100%; object-fit: cover; transform: scale(1.5); transform-origin: 50% 0; }
 .profile-links { font-size: 13px; }
-.publication-categories { display: flex; flex-wrap: wrap; gap: 10px 20px; font-size: 13px; }
 .publication-group + .publication-group { margin-top: 22px; }
 .publication { margin-bottom: 20px; }
 .publication-label { font-weight: 400; white-space: nowrap; }
