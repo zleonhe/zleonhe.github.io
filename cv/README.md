@@ -74,8 +74,10 @@ Replace example URLs/DOI with real values, or omit unavailable fields.
   missing required fields, year/date conflicts, and broken local resource paths
   fail generation. This does not check remote links' availability.
 - Keep volume, issue (`number`), pages and publication dates when known; the CV
-  intentionally prints a compact author/title/venue/year citation. Conference
-  travel dates and locations remain available on the website.
+  intentionally prints a compact author/title/venue/year citation, adding the
+  location and event date after the venue for conference papers, matching the
+  website. If `eventdate` is absent, the CV falls back to `year`. Journal
+  citations continue to show the publication year.
 
 ## CV structure
 

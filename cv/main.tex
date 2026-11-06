@@ -1,6 +1,6 @@
 \documentclass[11pt]{article}
 \usepackage{academiccv}
-\usepackage[backend=biber,style=numeric,sorting=none,maxbibnames=99,maxcitenames=99,giveninits=false,doi=false,url=false,isbn=false]{biblatex}
+\usepackage[backend=biber,style=numeric,sorting=none,eventdate=comp,dateabbrev=true,maxbibnames=99,maxcitenames=99,giveninits=false,doi=false,url=false,isbn=false]{biblatex}
 \addbibresource{publication.bib}
 \DeclareNameAlias{author}{given-family}
 \renewcommand*{\mkbibnamegiven}[1]{\ifboolexpr{test {\ifdefstring{\namepartfamily}{He}} and test {\ifdefstring{\namepartgiven}{Zhuolun}}}{\textbf{#1}}{#1}}
@@ -8,7 +8,7 @@
 \DeclareFieldFormat[article,inproceedings,misc]{title}{\iffieldundef{doi}{\iffieldundef{url}{#1}{\href{\thefield{url}}{#1}}}{\href{https://doi.org/\thefield{doi}}{#1}}}
 \DeclareFieldFormat{note}{\textit{#1}}
 \DeclareBibliographyDriver{article}{\printnames{author}\setunit{\addperiod\space}\printfield{title}\setunit{\addperiod\space}\printfield{journaltitle}\setunit{\addcomma\space}\printfield{year}\newunit\printfield{note}\usebibmacro{finentry}}
-\DeclareBibliographyDriver{inproceedings}{\printnames{author}\setunit{\addperiod\space}\printfield{title}\setunit{\addperiod\space}\printfield{booktitle}\setunit{\addcomma\space}\printfield{year}\newunit\printfield{note}\usebibmacro{finentry}}
+\DeclareBibliographyDriver{inproceedings}{\printnames{author}\setunit{\addperiod\space}\printfield{title}\setunit{\addperiod\space}\printfield{booktitle}\setunit{\addcomma\space}\printlist{location}\setunit{\addcomma\space}\iffieldundef{eventyear}{\printfield{year}}{\printeventdate}\newunit\printfield{note}\usebibmacro{finentry}}
 \DeclareBibliographyDriver{misc}{\printnames{author}\setunit{\addperiod\space}\printfield{title}\setunit{\addperiod\space}\printtext{\href{https://arxiv.org/abs/\thefield{eprint}}{arXiv:\thefield{eprint}}}\setunit{\addcomma\space}\printfield{year}\usebibmacro{finentry}}
 \setlength{\bibitemsep}{6pt}
 \setlength{\biblabelsep}{7pt}
@@ -27,7 +27,7 @@ Artificial intelligence for electronic design automation: agentic EDA, knowledge
 \section{Academic Appointments}
 \appointment{Tsinghua University}{Beijing, China}{Assistant Professor}{Oct. 2026 -- Present}
 \entrygap
-\appointment{The Chinese University of Hong Kong}{Hong Kong}{Postdoctoral Fellow}{Nov. 2023 -- Aug. 2026}
+\appointment{The Chinese University of Hong Kong}{Hong Kong}{Postdoctoral Fellow}{Nov. 2023 -- Oct. 2026}
 
 \section{Education}
 \appointment{The Chinese University of Hong Kong}{Hong Kong}{Ph.D. in Computer Science and Engineering}{Aug. 2019 -- Aug. 2023}
