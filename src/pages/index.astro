@@ -5,7 +5,7 @@ import Layout from '../layouts/Layout.astro';
 <Layout>
   <div class="profile">
     <div class="portrait">
-      <img src={localUrl('/images/about.jpg')} alt="Zhuolun (Leon) He" width="687" height="835" />
+      <img src={localUrl('/images/about-web.jpg')} alt="Zhuolun (Leon) He" width="600" height="720" />
     </div>
     <div>
       <h1>Zhuolun (Leon) He</h1>
@@ -24,7 +24,7 @@ import Layout from '../layouts/Layout.astro';
   </div>
   <p>I am an Assistant Professor in the <a target="_blank" rel="noopener noreferrer" href="https://www.cs.tsinghua.edu.cn/csen/">Department of Computer Science and Technology</a> at <a target="_blank" rel="noopener noreferrer" href="https://www.tsinghua.edu.cn/">Tsinghua University</a>, and a member of the <a target="_blank" rel="noopener noreferrer" href="https://eda.cs.tsinghua.edu.cn/">EDA Lab</a>. I received my Ph.D. from <a target="_blank" rel="noopener noreferrer" href="https://www.cuhk.edu.hk/english/index.html">the Chinese University of Hong Kong</a> in 2023, supervised by <a target="_blank" rel="noopener noreferrer" href="https://www.cse.cuhk.edu.hk/~byu/">Prof. Bei Yu</a>, and my B.Sc. from <a target="_blank" rel="noopener noreferrer" href="https://english.pku.edu.cn/">Peking University</a> in 2017. I serve as an Associate Editor of <a target="_blank" rel="noopener noreferrer" href="https://www.sciencedirect.com/journal/integration"><cite>Integration, the VLSI Journal</cite></a>.</p>
   <p>My research interests are in artificial intelligence and electronic design automation. I study how large language models infer formal representations of domain knowledge and design intent, enabling downstream computation through algorithms, compilation, and automated reasoning. In particular, my current work targets chip verification, where a central challenge is to ensure that every conclusion is faithful to a specification and justified under explicit assumptions. I have also worked on netlist representation learning, physical design optimization, and efficient physical verification.</p>
-  <p>I am looking for self-motivated Ph.D. students starting in Fall 2028 and undergraduate research interns. If you are interested in working with me, please <a href="mailto:zlhe@tsinghua.edu.cn">email me</a> your CV and a brief description of your research interests.</p>
+  <p>I am looking for self-motivated Ph.D. students starting in Fall 2028 and undergraduate research interns. If you are interested in working with me, please <a href="mailto:zlhe@tsinghua.edu.cn">email me</a> your CV and a brief description of your research interests. Due to the volume of inquiries, I may not be able to respond to every prospective student individually.</p>
   <section aria-label="Representative work">
     <p>Some recent work on LLMs for EDA:</p>
     <ul class="work-list">
@@ -36,7 +36,7 @@ import Layout from '../layouts/Layout.astro';
     <ul class="work-list">
       <li><strong>Netlist representation learning:</strong> <a href={localUrl('/publications/#pub-14')}>arithmetic block identification</a>, <a href={localUrl('/publications/#pub-10')}>functionality-aware representations</a>, <a href={localUrl('/publications/#pub-31')}>FGNN2</a>.</li>
       <li><strong>Physical design optimization:</strong> <a href={localUrl('/publications/#pub-5')}>RL-based floorplanning</a>, <a href={localUrl('/publications/#pub-8')}>datapath-driven floorplanning</a>, <a href={localUrl('/publications/#pub-35')}>IncreMacro</a>, <a href={localUrl('/publications/#pub-27')}>Lesyn</a>.</li>
-      <li><strong>Physical verification:</strong> <a href={localUrl('/publications/#pub-11')}>X-Check</a>, <a href={localUrl('/publications/#pub-17')}>OpenDRC</a>, <a href={localUrl('/publications/#pub-26')}>PDRC</a>, <a href={localUrl('/publications/#pub-40')}>EasyMRC</a>.</li>
+      <li><strong>Physical verification:</strong> <a href={localUrl('/publications/#pub-11')}>X-Check</a>, <a href={localUrl('/publications/#pub-17')}>OpenDRC</a>, <a href={localUrl('/publications/#pub-26')}>PDRC</a>, <a href={localUrl('/publications/#pub-40')}>EasyMRC</a>, <a href={localUrl('/publications/#qin2027formalpcell')}>FormalPCell</a>.</li>
     </ul>
     <p><a href={localUrl('/publications/')}>Full publication list →</a></p>
   </section>
@@ -54,5 +54,16 @@ import Layout from '../layouts/Layout.astro';
   <section id="teaching" aria-labelledby="teaching-heading">
     <h2 id="teaching-heading">Teaching</h2>
     <p>Course information will be added here.</p>
+  </section>
+  <section aria-labelledby="calendar-heading">
+    <h2 id="calendar-heading">Calendar</h2>
+    <iframe
+      class="availability-calendar"
+      title="Availability calendar"
+      src="https://calendar.google.com/calendar/embed?src=zleonhe%40gmail.com&amp;ctz=Asia%2FShanghai&amp;mode=WEEK&amp;wkst=1&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0"
+      loading="lazy"
+      width="1000"
+      height="600"
+    ></iframe>
   </section>
 </Layout>

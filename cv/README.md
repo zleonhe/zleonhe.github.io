@@ -114,8 +114,8 @@ Journal years use the issue year when known; online-first entries without an iss
 use their available publication year. The generated JSON retains its editorial storage order; `cvOrder` and `label`
 carry the shared CV display order and category numbering for the website.
 
-Labels descend separately within each category: `[J13]` to `[J1]`, `[C44]` to
-`[C1]`, and `[P4]` to `[P1]` in this edition (44 conference papers and four
+Labels descend separately within each category: `[J13]` to `[J1]`, `[C46]` to
+`[C1]`, and `[P4]` to `[P1]` in this edition (46 conference papers and four
 preprints; no separate workshop list). Counts are generated, not stored or maintained by
 hand. They are display labels, not stable identifiers: inserting an older paper
 can change some labels. BibTeX keys and website anchors stay stable. All author
@@ -177,8 +177,8 @@ advising, service, grants and invited-talk details remain to be supplied.
   [ToTRL](https://arxiv.org/abs/2505.12717).
   No conference acceptance is inferred for these four.
 
-Current total: 13 journal articles, 44 conference papers (including one accepted
-2027 paper), and four separately listed preprints. Owner-supplied awards remain
+Current total: 13 journal articles, 46 conference papers (including three accepted
+2027 papers), and four separately listed preprints. Owner-supplied awards remain
 in the shared Honors and Awards list without advising annotations.
 
 MLCAD 2023 event dates were corrected from the accidentally copied ICCAD dates
